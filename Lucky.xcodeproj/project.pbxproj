@@ -13,9 +13,11 @@
 		636FA29021A2A53000F4030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28F21A2A53000F4030E /* Assets.xcassets */; };
 		636FA29321A2A53000F4030E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636FA29121A2A53000F4030E /* LaunchScreen.storyboard */; };
 		636FA29621A2A53000F4030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29521A2A53000F4030E /* main.m */; };
+		D32A43BE29F27E34B31BE0A5 /* libPods-Lucky.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C41CF9D979D93D529D7115 /* libPods-Lucky.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C41CF9D979D93D529D7115 /* libPods-Lucky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636FA28321A2A52E00F4030E /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636FA28621A2A52E00F4030E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		636FA28721A2A52E00F4030E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		636FA29221A2A53000F4030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636FA29421A2A53000F4030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636FA29521A2A53000F4030E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky.release.xcconfig"; path = "Target Support Files/Pods-Lucky/Pods-Lucky.release.xcconfig"; sourceTree = "<group>"; };
+		A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky.debug.xcconfig"; path = "Target Support Files/Pods-Lucky/Pods-Lucky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32A43BE29F27E34B31BE0A5 /* libPods-Lucky.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5157536B9C261E5E29029DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C41CF9D979D93D529D7115 /* libPods-Lucky.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		636FA27A21A2A52E00F4030E = {
 			isa = PBXGroup;
 			children = (
 				636FA28521A2A52E00F4030E /* Lucky */,
 				636FA28421A2A52E00F4030E /* Products */,
+				B08643F0205BE746BDFC7264 /* Pods */,
+				5157536B9C261E5E29029DD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,16 @@
 			path = Lucky;
 			sourceTree = "<group>";
 		};
+		B08643F0205BE746BDFC7264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */,
+				819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636FA29921A2A53000F4030E /* Build configuration list for PBXNativeTarget "Lucky" */;
 			buildPhases = (
+				C96AB8F374EABBEAA99A971B /* [CP] Check Pods Manifest.lock */,
 				636FA27F21A2A52E00F4030E /* Sources */,
 				636FA28021A2A52E00F4030E /* Frameworks */,
 				636FA28121A2A52E00F4030E /* Resources */,
+				83D1ADA7C436D99308BF9CDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83D1ADA7C436D99308BF9CDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96AB8F374EABBEAA99A971B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lucky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		636FA27F21A2A52E00F4030E /* Sources */ = {
@@ -283,6 +359,7 @@
 		};
 		636FA29A21A2A53000F4030E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +377,7 @@
 		};
 		636FA29B21A2A53000F4030E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
