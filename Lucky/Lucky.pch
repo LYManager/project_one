@@ -1,0 +1,14 @@
+// Lucky.pch 
+// Lucky 
+// 
+// Created by 赵良育 on 2018/11/19. 
+// Copyright © 2018 赵良育. All rights reserved. 
+// 
+
+#ifndef Lucky_pch
+#define Lucky_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Lucky_pch */

@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - CTMediator (25)
+  - FRDModuleManager (0.1.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.15.7)
@@ -31,6 +32,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - CTMediator (~> 25)
+  - FRDModuleManager (from `https://github.com/lincode/FRDModuleManager.git`, commit `0.1.0`)
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -53,9 +55,20 @@ SPEC REPOS:
     - TZImagePickerController
     - YYKit
 
+EXTERNAL SOURCES:
+  FRDModuleManager:
+    :commit: 0.1.0
+    :git: https://github.com/lincode/FRDModuleManager.git
+
+CHECKOUT OPTIONS:
+  FRDModuleManager:
+    :commit: 0.1.0
+    :git: https://github.com/lincode/FRDModuleManager.git
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  FRDModuleManager: 125020c723f55d2232afd617578a0bad7fc04182
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
@@ -65,6 +78,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 29b279caee3309cbaa04ef1384b036ec90297f3f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 1a334f023b648a33bd9b3e075068378fbecda8a5
+PODFILE CHECKSUM: a1e86eebcc54fcde1049bd723e33c2e48c801c17
 
 COCOAPODS: 1.6.0.beta.2

@@ -6,7 +6,9 @@
 // 
 
 #import "AppDelegate.h"
-
+#import <FRDModuleManager/FRDModuleManager.h>
+#import "LYHomePageViewController.h"
+#import "LYBaseNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -15,10 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    LYHomePageViewController * appVC = [[LYHomePageViewController alloc]init];
+    LYBaseNavigationViewController * navc = [[LYBaseNavigationViewController alloc]initWithRootViewController:appVC];
+    self.window.rootViewController = navc;
+    [self.window makeKeyAndVisible];
+//    [[FRDModuleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
-
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+//    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"ModulesRegister" ofType:@"plist"];
+//    FRDModuleManager *manager = [FRDModuleManager sharedInstance];
+//    [manager loadModulesWithPlistFile:plistPath];
+//    [manager application:application willFinishLaunchingWithOptions:launchOptions];
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -29,6 +29,10 @@ THE SOFTWARE.
 MIT
 
 
+## FRDModuleManager
+
+LICENSE
+
 ## MBProgressHUD
 
 Copyright © 2009-2016 Matej Bukovinski

@@ -4,6 +4,7 @@ platform :ios, '8.0'
 target 'Lucky' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
+    pod 'FRDModuleManager', :git => 'https://github.com/lincode/FRDModuleManager.git', :commit => '0.1.0'
     pod 'SDWebImage', '~> 4.0.0'
     pod 'AFNetworking'
     pod 'MBProgressHUD'

@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		636FA28821A2A52E00F4030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA28721A2A52E00F4030E /* AppDelegate.m */; };
-		636FA28B21A2A52E00F4030E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA28A21A2A52E00F4030E /* ViewController.m */; };
-		636FA28E21A2A52E00F4030E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28C21A2A52E00F4030E /* Main.storyboard */; };
+		6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942521A2C11200DE2DA7 /* LYBaseViewController.m */; };
+		6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */; };
+		6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */; };
+		6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942E21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m */; };
+		6333943321A2C48000DE2DA7 /* LYHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */; };
 		636FA29021A2A53000F4030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28F21A2A53000F4030E /* Assets.xcassets */; };
-		636FA29321A2A53000F4030E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636FA29121A2A53000F4030E /* LaunchScreen.storyboard */; };
 		636FA29621A2A53000F4030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29521A2A53000F4030E /* main.m */; };
+		636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29E21A2AEAC00F4030E /* AppDelegate.m */; };
+		636FA2BA21A2B14800F4030E /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 636FA2B921A2B14800F4030E /* ModulesRegister.plist */; };
 		D32A43BE29F27E34B31BE0A5 /* libPods-Lucky.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C41CF9D979D93D529D7115 /* libPods-Lucky.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12C41CF9D979D93D529D7115 /* libPods-Lucky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6333942021A2BFCF00DE2DA7 /* Lucky.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lucky.pch; sourceTree = "<group>"; };
+		6333942421A2C11200DE2DA7 /* LYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
+		6333942521A2C11200DE2DA7 /* LYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
+		6333942721A2C19100DE2DA7 /* LYBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseNavigationViewController.h; sourceTree = "<group>"; };
+		6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseNavigationViewController.m; sourceTree = "<group>"; };
+		6333942A21A2C1AC00DE2DA7 /* LYBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseTabBarController.h; sourceTree = "<group>"; };
+		6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseTabBarController.m; sourceTree = "<group>"; };
+		6333942E21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HSImageBarButton.m"; sourceTree = "<group>"; };
+		6333942F21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HSImageBarButton.h"; sourceTree = "<group>"; };
+		6333943121A2C48000DE2DA7 /* LYHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageViewController.h; sourceTree = "<group>"; };
+		6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageViewController.m; sourceTree = "<group>"; };
 		636FA28321A2A52E00F4030E /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		636FA28621A2A52E00F4030E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		636FA28721A2A52E00F4030E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		636FA28921A2A52E00F4030E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		636FA28A21A2A52E00F4030E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		636FA28D21A2A52E00F4030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		636FA28F21A2A53000F4030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		636FA29221A2A53000F4030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636FA29421A2A53000F4030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636FA29521A2A53000F4030E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636FA29D21A2AEAC00F4030E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636FA29E21A2AEAC00F4030E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636FA2B921A2B14800F4030E /* ModulesRegister.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
 		819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky.release.xcconfig"; path = "Target Support Files/Pods-Lucky/Pods-Lucky.release.xcconfig"; sourceTree = "<group>"; };
 		A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky.debug.xcconfig"; path = "Target Support Files/Pods-Lucky/Pods-Lucky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +63,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6333942121A2C0CC00DE2DA7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6333942221A2C0CC00DE2DA7 /* BaseViewController */,
+				6333942321A2C0CC00DE2DA7 /* BaseRequest */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6333942221A2C0CC00DE2DA7 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6333942421A2C11200DE2DA7 /* LYBaseViewController.h */,
+				6333942521A2C11200DE2DA7 /* LYBaseViewController.m */,
+				6333942721A2C19100DE2DA7 /* LYBaseNavigationViewController.h */,
+				6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */,
+				6333942A21A2C1AC00DE2DA7 /* LYBaseTabBarController.h */,
+				6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		6333942321A2C0CC00DE2DA7 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		6333942D21A2C22D00DE2DA7 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				6333942E21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m */,
+				6333942F21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.h */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
 		636FA27A21A2A52E00F4030E = {
 			isa = PBXGroup;
 			children = (
@@ -73,17 +122,227 @@
 		636FA28521A2A52E00F4030E /* Lucky */ = {
 			isa = PBXGroup;
 			children = (
-				636FA28621A2A52E00F4030E /* AppDelegate.h */,
-				636FA28721A2A52E00F4030E /* AppDelegate.m */,
-				636FA28921A2A52E00F4030E /* ViewController.h */,
-				636FA28A21A2A52E00F4030E /* ViewController.m */,
-				636FA28C21A2A52E00F4030E /* Main.storyboard */,
+				636FA29C21A2AEAC00F4030E /* AppDelegate */,
+				636FA29F21A2AEAC00F4030E /* CodeModule */,
 				636FA28F21A2A53000F4030E /* Assets.xcassets */,
-				636FA29121A2A53000F4030E /* LaunchScreen.storyboard */,
 				636FA29421A2A53000F4030E /* Info.plist */,
 				636FA29521A2A53000F4030E /* main.m */,
+				6333942021A2BFCF00DE2DA7 /* Lucky.pch */,
 			);
 			path = Lucky;
+			sourceTree = "<group>";
+		};
+		636FA29C21A2AEAC00F4030E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				636FA2B921A2B14800F4030E /* ModulesRegister.plist */,
+				636FA29D21A2AEAC00F4030E /* AppDelegate.h */,
+				636FA29E21A2AEAC00F4030E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		636FA29F21A2AEAC00F4030E /* CodeModule */ = {
+			isa = PBXGroup;
+			children = (
+				636FA2A021A2AEAC00F4030E /* CommonModule */,
+				636FA2AA21A2AEAC00F4030E /* PersonCenterModule */,
+				636FA2B121A2AEAC00F4030E /* HomePageModule */,
+			);
+			path = CodeModule;
+			sourceTree = "<group>";
+		};
+		636FA2A021A2AEAC00F4030E /* CommonModule */ = {
+			isa = PBXGroup;
+			children = (
+				6333942121A2C0CC00DE2DA7 /* Base */,
+				636FA2A121A2AEAC00F4030E /* ThirdLib */,
+				636FA2A221A2AEAC00F4030E /* Category */,
+			);
+			path = CommonModule;
+			sourceTree = "<group>";
+		};
+		636FA2A121A2AEAC00F4030E /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		636FA2A221A2AEAC00F4030E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6333942D21A2C22D00DE2DA7 /* UIBarButtonItem */,
+				636FA2A321A2AEAC00F4030E /* UIColor */,
+				636FA2A421A2AEAC00F4030E /* UIView */,
+				636FA2A521A2AEAC00F4030E /* UIFont */,
+				636FA2A621A2AEAC00F4030E /* NSString */,
+				636FA2A721A2AEAC00F4030E /* UIViewController */,
+				636FA2A821A2AEAC00F4030E /* UINavigationController */,
+				636FA2A921A2AEAC00F4030E /* UITableView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		636FA2A321A2AEAC00F4030E /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		636FA2A421A2AEAC00F4030E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		636FA2A521A2AEAC00F4030E /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		636FA2A621A2AEAC00F4030E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		636FA2A721A2AEAC00F4030E /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		636FA2A821A2AEAC00F4030E /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		636FA2A921A2AEAC00F4030E /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		636FA2AA21A2AEAC00F4030E /* PersonCenterModule */ = {
+			isa = PBXGroup;
+			children = (
+				636FA2AB21A2AEAC00F4030E /* Presenter */,
+				636FA2AC21A2AEAC00F4030E /* Protocol */,
+				636FA2AD21A2AEAC00F4030E /* Controller */,
+				636FA2AE21A2AEAC00F4030E /* Model */,
+				636FA2AF21A2AEAC00F4030E /* View */,
+				636FA2B021A2AEAC00F4030E /* Request */,
+			);
+			path = PersonCenterModule;
+			sourceTree = "<group>";
+		};
+		636FA2AB21A2AEAC00F4030E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		636FA2AC21A2AEAC00F4030E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		636FA2AD21A2AEAC00F4030E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		636FA2AE21A2AEAC00F4030E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		636FA2AF21A2AEAC00F4030E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		636FA2B021A2AEAC00F4030E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		636FA2B121A2AEAC00F4030E /* HomePageModule */ = {
+			isa = PBXGroup;
+			children = (
+				636FA2B221A2AEAC00F4030E /* Presenter */,
+				636FA2B321A2AEAC00F4030E /* Protocol */,
+				636FA2B421A2AEAC00F4030E /* Controller */,
+				636FA2B521A2AEAC00F4030E /* Model */,
+				636FA2B621A2AEAC00F4030E /* View */,
+				636FA2B721A2AEAC00F4030E /* Request */,
+			);
+			path = HomePageModule;
+			sourceTree = "<group>";
+		};
+		636FA2B221A2AEAC00F4030E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		636FA2B321A2AEAC00F4030E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		636FA2B421A2AEAC00F4030E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6333943121A2C48000DE2DA7 /* LYHomePageViewController.h */,
+				6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		636FA2B521A2AEAC00F4030E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		636FA2B621A2AEAC00F4030E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		636FA2B721A2AEAC00F4030E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		B08643F0205BE746BDFC7264 /* Pods */ = {
@@ -92,7 +351,6 @@
 				A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */,
 				819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +382,7 @@
 		636FA27B21A2A52E00F4030E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "赵良育";
 				TargetAttributes = {
@@ -155,9 +414,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636FA29321A2A53000F4030E /* LaunchScreen.storyboard in Resources */,
 				636FA29021A2A53000F4030E /* Assets.xcassets in Resources */,
-				636FA28E21A2A52E00F4030E /* Main.storyboard in Resources */,
+				636FA2BA21A2B14800F4030E /* ModulesRegister.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,32 +475,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636FA28B21A2A52E00F4030E /* ViewController.m in Sources */,
+				6333943321A2C48000DE2DA7 /* LYHomePageViewController.m in Sources */,
+				6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */,
 				636FA29621A2A53000F4030E /* main.m in Sources */,
-				636FA28821A2A52E00F4030E /* AppDelegate.m in Sources */,
+				636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */,
+				6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */,
+				6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */,
+				6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		636FA28C21A2A52E00F4030E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				636FA28D21A2A52E00F4030E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		636FA29121A2A53000F4030E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				636FA29221A2A53000F4030E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		636FA29721A2A53000F4030E /* Debug */ = {
@@ -362,16 +605,22 @@
 			baseConfigurationReference = A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2Y7YB87T9;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lucky/Lucky.pch";
 				INFOPLIST_FILE = Lucky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunshine.Lucky;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.Lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -380,16 +629,22 @@
 			baseConfigurationReference = 819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2Y7YB87T9;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lucky/Lucky.pch";
 				INFOPLIST_FILE = Lucky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunshine.Lucky;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.Lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

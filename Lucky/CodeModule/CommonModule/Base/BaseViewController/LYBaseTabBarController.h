@@ -1,4 +1,4 @@
-// ViewController.h 
+// LYBaseTabBarController.h 
 // Lucky 
 // 
 // Created by 赵良育 on 2018/11/19. 
@@ -7,8 +7,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LYBaseTabBarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END
