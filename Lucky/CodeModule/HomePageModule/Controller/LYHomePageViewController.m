@@ -7,6 +7,8 @@
 
 #import "LYHomePageViewController.h"
 #import "LYHomePagePresenter.h"
+#import "LYBaseAPIProxy.h"
+#import "LYURLCommon.h"
 @interface LYHomePageViewController ()<LYHomePageViewProtocol>
 @property(nonatomic,strong)LYHomePagePresenter * homePresenter;                /**< presenter*/
 @end
