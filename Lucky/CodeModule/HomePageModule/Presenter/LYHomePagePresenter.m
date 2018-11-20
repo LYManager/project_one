@@ -41,6 +41,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
     }
+    
     cell.textLabel.text = @"测试";
     return cell;
 }
