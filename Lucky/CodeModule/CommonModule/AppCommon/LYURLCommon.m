@@ -11,7 +11,6 @@
 #ifdef DEBUG
 NSString * const ToolsBaseURL = @"https://clienttest.geaving.com/#/";   // 工具域名
 NSString * const BaseUrl = @"https://test.geaving.com/api/";   // 域名
-//NSString * const ToolsBaseURL = @"https://clienttest.geaving.com/#/";   // 工具的域名  （测试）
 #else
 NSString * const ToolsBaseURL = @"https://client.geaving.com/#/";   // 工具域名
 NSString * const BaseUrl = @"https://apiv2.geaving.com/api/";   // 域名

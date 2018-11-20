@@ -33,23 +33,10 @@
 
 - (NSInteger)callAPIWithRequestType:(APIManagerRequestType)requestType params:(NSDictionary *)params requestPath:(NSString *)requestPath uploadBlock:(void (^)(id <AFMultipartFormData> formData))uploadBlock success:(APICallback)success fail:(APICallback)fail
 {
-    
-    
+    NSMutableDictionary * param = params ? params.mutableCopy : [NSMutableDictionary dictionary];
+    [param setValue:@"v2" forKey:@"version"];
     NSString *urlString = [NSString stringWithFormat:@"%@%@",BaseUrl,requestPath];
-#if DEBUG   // 仅仅是为了切换地址用
-//    NSString * debugSrvice = [LYCommentModel shareInstance].debugServiceURLAdderss;
-//    if (debugSrvice) {
-//        urlString = [NSString stringWithFormat:@"%@%@",debugSrvice,requestPath];
-//    }
-#endif
-    NSMutableDictionary * newParam = params ? params.mutableCopy : @{}.mutableCopy;
-    NSDictionary * config = [NSBundle mainBundle].infoDictionary[@"LCUserDefaultConfig"];
-    [newParam setValue:@"v2" forKey:@"version"];
-    [newParam setValue:config[@"App"] forKey:@"app"];
-    [newParam setObject:UUID forKey:@"device"];
-    //   BOOL appstore =  [[NSUserDefaults standardUserDefaults]boolForKey:@"appstore"];
-    //    [newParam setObject:appstore ? @(1) : @(0) forKey:@"appstore"]; // 过滤苹果商品（正式环境用  审核）
-    NSNumber *requestId = [self callApi:urlString requestType:requestType params:newParam uploadBlock:uploadBlock success:success fail:fail];
+    NSNumber *requestId = [self callApi:urlString requestType:requestType params:param uploadBlock:uploadBlock success:success fail:fail];
     return [requestId integerValue];
 }
 

@@ -10,10 +10,10 @@
 
 
 #import "LYHttpPresenter.h"
-#import "LYHomePageViewProtocol.h"
+//#import "LYHomePageViewProtocol.h"
+#import "LYHomePageRequest.h"
 NS_ASSUME_NONNULL_BEGIN
-
-@interface LYHomePagePresenter : LYHttpPresenter<id<LYHomePageViewProtocol>>
+@interface LYHomePagePresenter : LYHttpPresenter<UITableViewDataSource,UITableViewDelegate>
 
 @end
 
