@@ -21,7 +21,7 @@
 }
 - (Class)responseClass
 {
-    return [BaseResponse class];
+    return [LYHomeDataResponse class];
 }
 
 - (NSString *)requestPath

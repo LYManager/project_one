@@ -10,7 +10,7 @@
 
 
 #import "LYBaseAPIRequest.h"
-
+#import "LYHomeDataResponse.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYHomePageRequest : LYBaseAPIRequest<APIManager>
