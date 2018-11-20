@@ -6,6 +6,7 @@
 // 
 
 #import "LYHomePagePresenter.h"
+#import "CTMediator+LYHomePageVCMediator.h"
 
 @interface LYHomePagePresenter ()<APIManagerApiCallBackDelegate>
 
@@ -39,7 +40,6 @@
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
-        cell.backgroundColor = [UIColor clearColor];
     }
     cell.textLabel.text = @"测试";
     return cell;
@@ -47,5 +47,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    [((UIViewController *)self.view).navigationController pushViewController:[[CTMediator sharedInstance]articleDetailViewController] animated:YES];
 }
 @end

@@ -18,6 +18,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         [self configUIWithTarget:target];
     }
     return self;
@@ -28,6 +29,7 @@
 {
    
     _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    _tableView.backgroundColor = [UIColor whiteColor];
     _tableView.rowHeight = 60;
     _tableView.dataSource = target;
     _tableView.delegate = target;
