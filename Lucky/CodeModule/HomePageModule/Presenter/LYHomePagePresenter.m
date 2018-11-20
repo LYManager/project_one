@@ -25,18 +25,15 @@
 {
     
 }
-
 #pragma 🐒------UITableViewDataSource,UITabBarDelegate------🐒
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 10;
 }
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 1;
 }
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
@@ -47,7 +44,6 @@
     cell.textLabel.text = @"测试";
     return cell;
 }
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
