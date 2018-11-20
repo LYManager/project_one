@@ -20,6 +20,7 @@
 #pragma 🐒------APIManagerApiCallBackDelegate------🐒
 - (void)managerCallAPIDidSuccess:(LYBaseAPIRequest *)request
 {
+    LYHomeDataResponse * response = (LYHomeDataResponse *)request.responseData;
     
 }
 - (void)managerCallAPIDidFailed:(LYBaseAPIRequest *)request

@@ -23,6 +23,9 @@
 		63277D4D21A3E0A600194751 /* LYArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D4C21A3E0A600194751 /* LYArticleDetailViewController.m */; };
 		63277D5121A3E1F900194751 /* LYJudgeVCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D5021A3E1F900194751 /* LYJudgeVCTool.m */; };
 		63277D5421A3E74700194751 /* Target_LYHomePageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D5321A3E74700194751 /* Target_LYHomePageAction.m */; };
+		63277D5721A3F55F00194751 /* LYHomeDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D5621A3F55F00194751 /* LYHomeDataResponse.m */; };
+		63277D5A21A3F7A500194751 /* LYArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D5921A3F7A500194751 /* LYArticleListModel.m */; };
+		63277D5D21A3F86400194751 /* LYArticleCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D5B21A3F86400194751 /* LYArticleCategoryModel.m */; };
 		6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942521A2C11200DE2DA7 /* LYBaseViewController.m */; };
 		6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */; };
 		6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */; };
@@ -71,6 +74,12 @@
 		63277D5021A3E1F900194751 /* LYJudgeVCTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYJudgeVCTool.m; sourceTree = "<group>"; };
 		63277D5221A3E74700194751 /* Target_LYHomePageAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_LYHomePageAction.h; sourceTree = "<group>"; };
 		63277D5321A3E74700194751 /* Target_LYHomePageAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_LYHomePageAction.m; sourceTree = "<group>"; };
+		63277D5521A3F55F00194751 /* LYHomeDataResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomeDataResponse.h; sourceTree = "<group>"; };
+		63277D5621A3F55F00194751 /* LYHomeDataResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomeDataResponse.m; sourceTree = "<group>"; };
+		63277D5821A3F7A500194751 /* LYArticleListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArticleListModel.h; sourceTree = "<group>"; };
+		63277D5921A3F7A500194751 /* LYArticleListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArticleListModel.m; sourceTree = "<group>"; };
+		63277D5B21A3F86400194751 /* LYArticleCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYArticleCategoryModel.m; sourceTree = "<group>"; };
+		63277D5C21A3F86400194751 /* LYArticleCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleCategoryModel.h; sourceTree = "<group>"; };
 		6333942021A2BFCF00DE2DA7 /* Lucky.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lucky.pch; sourceTree = "<group>"; };
 		6333942421A2C11200DE2DA7 /* LYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
 		6333942521A2C11200DE2DA7 /* LYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
@@ -476,6 +485,12 @@
 		636FA2B521A2AEAC00F4030E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				63277D5C21A3F86400194751 /* LYArticleCategoryModel.h */,
+				63277D5B21A3F86400194751 /* LYArticleCategoryModel.m */,
+				63277D5521A3F55F00194751 /* LYHomeDataResponse.h */,
+				63277D5621A3F55F00194751 /* LYHomeDataResponse.m */,
+				63277D5821A3F7A500194751 /* LYArticleListModel.h */,
+				63277D5921A3F7A500194751 /* LYArticleListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -629,10 +644,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63277D5721A3F55F00194751 /* LYHomeDataResponse.m in Sources */,
 				6333944321A2CC9000DE2DA7 /* LYHomePageViewController.m in Sources */,
 				63277D3021A3A56400194751 /* LYPageAPIRequest.m in Sources */,
+				63277D5D21A3F86400194751 /* LYArticleCategoryModel.m in Sources */,
 				6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */,
 				63277D2D21A3A55300194751 /* LYBaseAPIRequest.m in Sources */,
+				63277D5A21A3F7A500194751 /* LYArticleListModel.m in Sources */,
 				63277D4A21A3DF7E00194751 /* CTMediator+LYHomePageVCMediator.m in Sources */,
 				63277D5121A3E1F900194751 /* LYJudgeVCTool.m in Sources */,
 				63277D2921A3A40D00194751 /* NSObject+Additions.m in Sources */,
