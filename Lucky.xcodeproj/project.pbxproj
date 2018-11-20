@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63277D2221A3A17A00194751 /* LYBaseAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2121A3A17A00194751 /* LYBaseAPIProxy.m */; };
+		63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2421A3A1E200194751 /* LYBaseAPIResponse.m */; };
+		63277D2921A3A40D00194751 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2721A3A40D00194751 /* NSObject+Additions.m */; };
+		63277D2D21A3A55300194751 /* LYBaseAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2C21A3A55300194751 /* LYBaseAPIRequest.m */; };
+		63277D3021A3A56400194751 /* LYPageAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2F21A3A56400194751 /* LYPageAPIRequest.m */; };
+		63277D3421A3A79200194751 /* MBProgressHUD+LYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3321A3A79200194751 /* MBProgressHUD+LYAdditions.m */; };
+		63277D3821A3A84900194751 /* LYAppCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3721A3A84900194751 /* LYAppCommon.m */; };
+		63277D3B21A3AC1A00194751 /* LYURLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3A21A3AC1A00194751 /* LYURLCommon.m */; };
+		63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3C21A3ACC800194751 /* LYCommentModel.m */; };
 		6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942521A2C11200DE2DA7 /* LYBaseViewController.m */; };
 		6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */; };
 		6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */; };
 		6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942E21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m */; };
-		6333943321A2C48000DE2DA7 /* LYHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */; };
+		6333944321A2CC9000DE2DA7 /* LYHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944221A2CC9000DE2DA7 /* LYHomePageViewController.m */; };
+		6333944621A2CE3600DE2DA7 /* LYPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944521A2CE3600DE2DA7 /* LYPresenter.m */; };
+		6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944921A2D5EF00DE2DA7 /* LYHomePagePresenter.m */; };
+		6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944C21A2D60100DE2DA7 /* LYHttpPresenter.m */; };
 		636FA29021A2A53000F4030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28F21A2A53000F4030E /* Assets.xcassets */; };
 		636FA29621A2A53000F4030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29521A2A53000F4030E /* main.m */; };
 		636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29E21A2AEAC00F4030E /* AppDelegate.m */; };
@@ -21,6 +33,24 @@
 
 /* Begin PBXFileReference section */
 		12C41CF9D979D93D529D7115 /* libPods-Lucky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63277D2021A3A17A00194751 /* LYBaseAPIProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseAPIProxy.h; sourceTree = "<group>"; };
+		63277D2121A3A17A00194751 /* LYBaseAPIProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseAPIProxy.m; sourceTree = "<group>"; };
+		63277D2321A3A1E200194751 /* LYBaseAPIResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseAPIResponse.h; sourceTree = "<group>"; };
+		63277D2421A3A1E200194751 /* LYBaseAPIResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseAPIResponse.m; sourceTree = "<group>"; };
+		63277D2721A3A40D00194751 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		63277D2821A3A40D00194751 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		63277D2B21A3A55300194751 /* LYBaseAPIRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseAPIRequest.h; sourceTree = "<group>"; };
+		63277D2C21A3A55300194751 /* LYBaseAPIRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseAPIRequest.m; sourceTree = "<group>"; };
+		63277D2E21A3A56400194751 /* LYPageAPIRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPageAPIRequest.h; sourceTree = "<group>"; };
+		63277D2F21A3A56400194751 /* LYPageAPIRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPageAPIRequest.m; sourceTree = "<group>"; };
+		63277D3221A3A79200194751 /* MBProgressHUD+LYAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYAdditions.h"; sourceTree = "<group>"; };
+		63277D3321A3A79200194751 /* MBProgressHUD+LYAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYAdditions.m"; sourceTree = "<group>"; };
+		63277D3621A3A84900194751 /* LYAppCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAppCommon.h; sourceTree = "<group>"; };
+		63277D3721A3A84900194751 /* LYAppCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAppCommon.m; sourceTree = "<group>"; };
+		63277D3921A3AC1A00194751 /* LYURLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYURLCommon.h; sourceTree = "<group>"; };
+		63277D3A21A3AC1A00194751 /* LYURLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYURLCommon.m; sourceTree = "<group>"; };
+		63277D3C21A3ACC800194751 /* LYCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCommentModel.m; sourceTree = "<group>"; };
+		63277D3D21A3ACC800194751 /* LYCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCommentModel.h; sourceTree = "<group>"; };
 		6333942021A2BFCF00DE2DA7 /* Lucky.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lucky.pch; sourceTree = "<group>"; };
 		6333942421A2C11200DE2DA7 /* LYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
 		6333942521A2C11200DE2DA7 /* LYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
@@ -30,8 +60,16 @@
 		6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseTabBarController.m; sourceTree = "<group>"; };
 		6333942E21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HSImageBarButton.m"; sourceTree = "<group>"; };
 		6333942F21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HSImageBarButton.h"; sourceTree = "<group>"; };
-		6333943121A2C48000DE2DA7 /* LYHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageViewController.h; sourceTree = "<group>"; };
-		6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageViewController.m; sourceTree = "<group>"; };
+		6333944121A2CC9000DE2DA7 /* LYHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageViewController.h; sourceTree = "<group>"; };
+		6333944221A2CC9000DE2DA7 /* LYHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageViewController.m; sourceTree = "<group>"; };
+		6333944421A2CE3600DE2DA7 /* LYPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPresenter.h; sourceTree = "<group>"; };
+		6333944521A2CE3600DE2DA7 /* LYPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPresenter.m; sourceTree = "<group>"; };
+		6333944721A2D55D00DE2DA7 /* LYHomePageViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageViewProtocol.h; sourceTree = "<group>"; };
+		6333944821A2D5EF00DE2DA7 /* LYHomePagePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePagePresenter.h; sourceTree = "<group>"; };
+		6333944921A2D5EF00DE2DA7 /* LYHomePagePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePagePresenter.m; sourceTree = "<group>"; };
+		6333944B21A2D60100DE2DA7 /* LYHttpPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHttpPresenter.h; sourceTree = "<group>"; };
+		6333944C21A2D60100DE2DA7 /* LYHttpPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHttpPresenter.m; sourceTree = "<group>"; };
+		6333944E21A2D6AE00DE2DA7 /* LYHttpResponseHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHttpResponseHandle.h; sourceTree = "<group>"; };
 		636FA28321A2A52E00F4030E /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636FA28F21A2A53000F4030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636FA29421A2A53000F4030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,9 +101,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		63277D2621A3A40D00194751 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				63277D2721A3A40D00194751 /* NSObject+Additions.m */,
+				63277D2821A3A40D00194751 /* NSObject+Additions.h */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		63277D2A21A3A41400194751 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		63277D3121A3A77200194751 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				63277D3221A3A79200194751 /* MBProgressHUD+LYAdditions.h */,
+				63277D3321A3A79200194751 /* MBProgressHUD+LYAdditions.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		63277D3521A3A84900194751 /* AppCommon */ = {
+			isa = PBXGroup;
+			children = (
+				63277D3D21A3ACC800194751 /* LYCommentModel.h */,
+				63277D3C21A3ACC800194751 /* LYCommentModel.m */,
+				63277D3621A3A84900194751 /* LYAppCommon.h */,
+				63277D3721A3A84900194751 /* LYAppCommon.m */,
+				63277D3921A3AC1A00194751 /* LYURLCommon.h */,
+				63277D3A21A3AC1A00194751 /* LYURLCommon.m */,
+			);
+			path = AppCommon;
+			sourceTree = "<group>";
+		};
 		6333942121A2C0CC00DE2DA7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6333943421A2C80800DE2DA7 /* BasePresenter */,
 				6333942221A2C0CC00DE2DA7 /* BaseViewController */,
 				6333942321A2C0CC00DE2DA7 /* BaseRequest */,
 			);
@@ -88,6 +165,15 @@
 		6333942321A2C0CC00DE2DA7 /* BaseRequest */ = {
 			isa = PBXGroup;
 			children = (
+				63277D3121A3A77200194751 /* MBProgressHUD */,
+				63277D2021A3A17A00194751 /* LYBaseAPIProxy.h */,
+				63277D2121A3A17A00194751 /* LYBaseAPIProxy.m */,
+				63277D2321A3A1E200194751 /* LYBaseAPIResponse.h */,
+				63277D2421A3A1E200194751 /* LYBaseAPIResponse.m */,
+				63277D2B21A3A55300194751 /* LYBaseAPIRequest.h */,
+				63277D2C21A3A55300194751 /* LYBaseAPIRequest.m */,
+				63277D2E21A3A56400194751 /* LYPageAPIRequest.h */,
+				63277D2F21A3A56400194751 /* LYPageAPIRequest.m */,
 			);
 			path = BaseRequest;
 			sourceTree = "<group>";
@@ -99,6 +185,18 @@
 				6333942F21A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.h */,
 			);
 			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		6333943421A2C80800DE2DA7 /* BasePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				6333944421A2CE3600DE2DA7 /* LYPresenter.h */,
+				6333944521A2CE3600DE2DA7 /* LYPresenter.m */,
+				6333944B21A2D60100DE2DA7 /* LYHttpPresenter.h */,
+				6333944C21A2D60100DE2DA7 /* LYHttpPresenter.m */,
+				6333944E21A2D6AE00DE2DA7 /* LYHttpResponseHandle.h */,
+			);
+			path = BasePresenter;
 			sourceTree = "<group>";
 		};
 		636FA27A21A2A52E00F4030E = {
@@ -155,6 +253,7 @@
 		636FA2A021A2AEAC00F4030E /* CommonModule */ = {
 			isa = PBXGroup;
 			children = (
+				63277D3521A3A84900194751 /* AppCommon */,
 				6333942121A2C0CC00DE2DA7 /* Base */,
 				636FA2A121A2AEAC00F4030E /* ThirdLib */,
 				636FA2A221A2AEAC00F4030E /* Category */,
@@ -172,6 +271,8 @@
 		636FA2A221A2AEAC00F4030E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				63277D2A21A3A41400194751 /* UIButton */,
+				63277D2621A3A40D00194751 /* NSObject */,
 				6333942D21A2C22D00DE2DA7 /* UIBarButtonItem */,
 				636FA2A321A2AEAC00F4030E /* UIColor */,
 				636FA2A421A2AEAC00F4030E /* UIView */,
@@ -304,6 +405,8 @@
 		636FA2B221A2AEAC00F4030E /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				6333944821A2D5EF00DE2DA7 /* LYHomePagePresenter.h */,
+				6333944921A2D5EF00DE2DA7 /* LYHomePagePresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -311,6 +414,7 @@
 		636FA2B321A2AEAC00F4030E /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				6333944721A2D55D00DE2DA7 /* LYHomePageViewProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -318,8 +422,8 @@
 		636FA2B421A2AEAC00F4030E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6333943121A2C48000DE2DA7 /* LYHomePageViewController.h */,
-				6333943221A2C48000DE2DA7 /* LYHomePageViewController.m */,
+				6333944121A2CC9000DE2DA7 /* LYHomePageViewController.h */,
+				6333944221A2CC9000DE2DA7 /* LYHomePageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,13 +579,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6333943321A2C48000DE2DA7 /* LYHomePageViewController.m in Sources */,
+				6333944321A2CC9000DE2DA7 /* LYHomePageViewController.m in Sources */,
+				63277D3021A3A56400194751 /* LYPageAPIRequest.m in Sources */,
 				6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */,
+				63277D2D21A3A55300194751 /* LYBaseAPIRequest.m in Sources */,
+				63277D2921A3A40D00194751 /* NSObject+Additions.m in Sources */,
+				63277D3821A3A84900194751 /* LYAppCommon.m in Sources */,
+				63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */,
 				636FA29621A2A53000F4030E /* main.m in Sources */,
+				63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */,
+				6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */,
 				636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */,
 				6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */,
+				63277D3421A3A79200194751 /* MBProgressHUD+LYAdditions.m in Sources */,
+				6333944621A2CE3600DE2DA7 /* LYPresenter.m in Sources */,
+				63277D2221A3A17A00194751 /* LYBaseAPIProxy.m in Sources */,
 				6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */,
+				6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */,
 				6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */,
+				63277D3B21A3AC1A00194751 /* LYURLCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,7 +736,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.Lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -644,7 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.Lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

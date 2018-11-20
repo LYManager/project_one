@@ -1,4 +1,4 @@
-// LYHomePageViewController.h 
+// LYHttpPresenter.h 
 // Lucky 
 // 
 // Created by 赵良育 on 2018/11/19. 
@@ -9,11 +9,11 @@
  */
 
 
-#import "LYBaseViewController.h"
-
+#import "LYPresenter.h"
+#import "LYHttpResponseHandle.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LYHomePageViewController : LYBaseViewController
+@interface LYHttpPresenter<T> : LYPresenter<T> <LYHttpResponseHandle>
 
 @end
 

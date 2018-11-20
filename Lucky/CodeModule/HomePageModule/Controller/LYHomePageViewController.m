@@ -6,27 +6,35 @@
 // 
 
 #import "LYHomePageViewController.h"
-
-@interface LYHomePageViewController ()
-
+#import "LYHomePagePresenter.h"
+@interface LYHomePageViewController ()<LYHomePageViewProtocol>
+@property(nonatomic,strong)LYHomePagePresenter * homePresenter;                /**< presenter*/
 @end
 
 @implementation LYHomePageViewController
-
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    self.navigationItem.title = @"首页";
-    // Do any additional setup after loading the view.
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma 🐒------Data response------🐒
+- (void)ly_getHomeDataResponse:(id)response
+{
+    
 }
-*/
 
+- (void)ly_getHomeDataFail:(NSInteger) errorCode des:(NSString *)des
+{
+    
+}
+
+#pragma 🐒------lazy------🐒
+- (LYHomePagePresenter *)homePresenter
+{
+    if (!_homePresenter) {
+        _homePresenter = [[LYHomePagePresenter alloc]initWithView:self];
+    }
+    return _homePresenter;
+}
 @end
