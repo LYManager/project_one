@@ -14,7 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYHttpPresenter<T> : LYPresenter<T> <LYHttpResponseHandle>
-
+- (void) loadRequestWithParams:(nullable NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END

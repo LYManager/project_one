@@ -7,6 +7,49 @@
 
 #import "LYHomePagePresenter.h"
 
-@implementation LYHomePagePresenter
+@interface LYHomePagePresenter ()<APIManagerApiCallBackDelegate>
 
+@end
+
+@implementation LYHomePagePresenter
+- (void)loadRequestWithParams:(NSDictionary *)params
+{
+    [LYHomePageRequest requestWithCallBackTarget:self];
+}
+#pragma 🐒------APIManagerApiCallBackDelegate------🐒
+- (void)managerCallAPIDidSuccess:(LYBaseAPIRequest *)request
+{
+    
+}
+- (void)managerCallAPIDidFailed:(LYBaseAPIRequest *)request
+{
+    
+}
+
+#pragma 🐒------UITableViewDataSource,UITabBarDelegate------🐒
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 10;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
+        cell.backgroundColor = [UIColor clearColor];
+    }
+    cell.textLabel.text = @"测试";
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
 @end

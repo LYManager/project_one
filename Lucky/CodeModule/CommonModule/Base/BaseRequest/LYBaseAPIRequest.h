@@ -11,6 +11,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LYBaseAPIProxy.h"
+#import "LYURLCommon.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @class LYPageAPIRequest;

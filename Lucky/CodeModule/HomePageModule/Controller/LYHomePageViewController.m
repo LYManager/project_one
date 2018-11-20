@@ -9,26 +9,30 @@
 #import "LYHomePagePresenter.h"
 #import "LYBaseAPIProxy.h"
 #import "LYURLCommon.h"
-@interface LYHomePageViewController ()<LYHomePageViewProtocol>
+#import "LYHomePageView.h"
+@interface LYHomePageViewController ()
+
+//@interface LYHomePageViewController ()
 @property(nonatomic,strong)LYHomePagePresenter * homePresenter;                /**< presenter*/
 @end
 
 @implementation LYHomePageViewController
+- (void)loadView
+{
+    self.view = [[LYHomePageView alloc]initWithViewTarget:self.homePresenter];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-}
-
-#pragma 🐒------Data response------🐒
-- (void)ly_getHomeDataResponse:(id)response
-{
+    [self loadRequest];
     
 }
-
-- (void)ly_getHomeDataFail:(NSInteger) errorCode des:(NSString *)des
+#pragma 🐒------数据请求------🐒
+- (void) loadRequest
 {
-    
+    [self.homePresenter loadRequestWithParams:nil];
 }
 
 #pragma 🐒------lazy------🐒

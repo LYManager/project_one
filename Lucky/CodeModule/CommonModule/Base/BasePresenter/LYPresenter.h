@@ -14,9 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYPresenter<T>: NSObject
-{
-   __weak T _view;
-}
+@property(nonatomic,weak,readonly)T view;        /**< 绑定的控制器*/
 
 /**
  初始化

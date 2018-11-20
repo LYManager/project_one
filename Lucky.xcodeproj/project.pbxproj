@@ -16,6 +16,9 @@
 		63277D3821A3A84900194751 /* LYAppCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3721A3A84900194751 /* LYAppCommon.m */; };
 		63277D3B21A3AC1A00194751 /* LYURLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3A21A3AC1A00194751 /* LYURLCommon.m */; };
 		63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D3C21A3ACC800194751 /* LYCommentModel.m */; };
+		63277D4121A3B8A800194751 /* LYHomePageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D4021A3B8A800194751 /* LYHomePageRequest.m */; };
+		63277D4421A3C89700194751 /* LYHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D4321A3C89700194751 /* LYHomePageView.m */; };
+		63277D4621A3D4AF00194751 /* view_bg_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 63277D4521A3D4AF00194751 /* view_bg_image.png */; };
 		6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942521A2C11200DE2DA7 /* LYBaseViewController.m */; };
 		6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942821A2C19100DE2DA7 /* LYBaseNavigationViewController.m */; };
 		6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333942B21A2C1AC00DE2DA7 /* LYBaseTabBarController.m */; };
@@ -51,6 +54,11 @@
 		63277D3A21A3AC1A00194751 /* LYURLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYURLCommon.m; sourceTree = "<group>"; };
 		63277D3C21A3ACC800194751 /* LYCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCommentModel.m; sourceTree = "<group>"; };
 		63277D3D21A3ACC800194751 /* LYCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCommentModel.h; sourceTree = "<group>"; };
+		63277D3F21A3B8A800194751 /* LYHomePageRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageRequest.h; sourceTree = "<group>"; };
+		63277D4021A3B8A800194751 /* LYHomePageRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageRequest.m; sourceTree = "<group>"; };
+		63277D4221A3C89700194751 /* LYHomePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageView.h; sourceTree = "<group>"; };
+		63277D4321A3C89700194751 /* LYHomePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageView.m; sourceTree = "<group>"; };
+		63277D4521A3D4AF00194751 /* view_bg_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_bg_image.png; sourceTree = "<group>"; };
 		6333942021A2BFCF00DE2DA7 /* Lucky.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lucky.pch; sourceTree = "<group>"; };
 		6333942421A2C11200DE2DA7 /* LYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
 		6333942521A2C11200DE2DA7 /* LYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
@@ -139,6 +147,13 @@
 			path = AppCommon;
 			sourceTree = "<group>";
 		};
+		63277D4721A3DB8200194751 /* Target-Action */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Target-Action";
+			sourceTree = "<group>";
+		};
 		6333942121A2C0CC00DE2DA7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +217,7 @@
 		636FA27A21A2A52E00F4030E = {
 			isa = PBXGroup;
 			children = (
+				63277D4521A3D4AF00194751 /* view_bg_image.png */,
 				636FA28521A2A52E00F4030E /* Lucky */,
 				636FA28421A2A52E00F4030E /* Products */,
 				B08643F0205BE746BDFC7264 /* Pods */,
@@ -392,6 +408,7 @@
 		636FA2B121A2AEAC00F4030E /* HomePageModule */ = {
 			isa = PBXGroup;
 			children = (
+				63277D4721A3DB8200194751 /* Target-Action */,
 				636FA2B221A2AEAC00F4030E /* Presenter */,
 				636FA2B321A2AEAC00F4030E /* Protocol */,
 				636FA2B421A2AEAC00F4030E /* Controller */,
@@ -438,6 +455,8 @@
 		636FA2B621A2AEAC00F4030E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				63277D4221A3C89700194751 /* LYHomePageView.h */,
+				63277D4321A3C89700194751 /* LYHomePageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +464,8 @@
 		636FA2B721A2AEAC00F4030E /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				63277D3F21A3B8A800194751 /* LYHomePageRequest.h */,
+				63277D4021A3B8A800194751 /* LYHomePageRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -518,6 +539,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63277D4621A3D4AF00194751 /* view_bg_image.png in Resources */,
 				636FA29021A2A53000F4030E /* Assets.xcassets in Resources */,
 				636FA2BA21A2B14800F4030E /* ModulesRegister.plist in Resources */,
 			);
@@ -589,11 +611,13 @@
 				636FA29621A2A53000F4030E /* main.m in Sources */,
 				63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */,
 				6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */,
+				63277D4121A3B8A800194751 /* LYHomePageRequest.m in Sources */,
 				636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */,
 				6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */,
 				63277D3421A3A79200194751 /* MBProgressHUD+LYAdditions.m in Sources */,
 				6333944621A2CE3600DE2DA7 /* LYPresenter.m in Sources */,
 				63277D2221A3A17A00194751 /* LYBaseAPIProxy.m in Sources */,
+				63277D4421A3C89700194751 /* LYHomePageView.m in Sources */,
 				6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */,
 				6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */,
 				6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */,
