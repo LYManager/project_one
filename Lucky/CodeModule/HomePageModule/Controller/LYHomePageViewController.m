@@ -10,7 +10,6 @@
 #import "LYHomePageView.h"
 @interface LYHomePageViewController ()
 
-//@interface LYHomePageViewController ()
 @property(nonatomic,strong)LYHomePagePresenter * homePresenter;                /**< presenter*/
 @end
 
@@ -19,20 +18,16 @@
 {
     self.view = [[LYHomePageView alloc]initWithViewTarget:self.homePresenter];
 }
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self loadRequest];
-    
 }
 #pragma 🐒------数据请求------🐒
 - (void) loadRequest
 {
     [self.homePresenter loadRequestWithParams:nil];
 }
-
 #pragma 🐒------lazy------🐒
 - (LYHomePagePresenter *)homePresenter
 {
