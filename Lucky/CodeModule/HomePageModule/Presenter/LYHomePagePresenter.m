@@ -21,6 +21,7 @@
 - (void)managerCallAPIDidSuccess:(LYBaseAPIRequest *)request
 {
     LYHomeDataResponse * response = (LYHomeDataResponse *)request.responseData;
+    NSLog(@"%@",response);
     
 }
 - (void)managerCallAPIDidFailed:(LYBaseAPIRequest *)request
