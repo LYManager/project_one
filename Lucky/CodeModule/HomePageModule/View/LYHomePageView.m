@@ -27,12 +27,15 @@
 
 - (void) configUIWithTarget:(id<UITableViewDelegate,UITableViewDataSource>)target
 {
-   
-    _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
-    _tableView.backgroundColor = [UIColor whiteColor];
-    _tableView.rowHeight = 60;
-    _tableView.dataSource = target;
-    _tableView.delegate = target;
+    _tableView =({
+        UITableView * tableView =[[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+        tableView.backgroundColor = [UIColor whiteColor];
+        tableView.rowHeight = 120;
+        tableView.dataSource = target;
+        tableView.delegate = target;
+        tableView.tableFooterView = [UIView new];
+        tableView;
+    });
     [self addSubview:_tableView];
 }
 

@@ -46,6 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *  share_url;
 /** 🐶category    👇*/
 @property(nonatomic,strong)LYArticleCategoryModel * category;
+
+- (NSAttributedString *) ly_getAttributeSummary;
 @end
 
 NS_ASSUME_NONNULL_END

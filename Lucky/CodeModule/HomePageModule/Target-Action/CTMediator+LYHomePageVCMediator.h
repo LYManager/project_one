@@ -10,7 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (LYHomePageVCMediator)
-- (UIViewController *)articleDetailViewController;
+- (UIViewController *)articleDetailViewController:(NSDictionary *)param;
+
+- (UIViewController *)toolDetailViewController:(NSDictionary *)param;
 @end
 
 NS_ASSUME_NONNULL_END

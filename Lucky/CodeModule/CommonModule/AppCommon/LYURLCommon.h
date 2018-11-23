@@ -26,15 +26,16 @@ UIKIT_EXTERN NSString * const todayLuckURL; // 今日运势
 
 UIKIT_EXTERN NSString * const articleListURL; //文章
 
-UIKIT_EXTERN NSString * const loginURL;  // 登录
+UIKIT_EXTERN NSString * const articleDetailURL; // 文章详情
 
-UIKIT_EXTERN NSString * const phoneRegisterURL;  // 手机注册
-
-UIKIT_EXTERN NSString * const protocolURL;  // 协议
-
-UIKIT_EXTERN NSString * const aboutUsURL; // 关于我们
-
-UIKIT_EXTERN NSString * const userDetailURL; //  （用户）详情
+UIKIT_EXTERN NSString * const baZiPaiPanURL;
+UIKIT_EXTERN NSString * const liuRenQiKeURL;
+UIKIT_EXTERN NSString * const xuanKongFeiXingURL;
+UIKIT_EXTERN NSString * const liuBoQiGuaURL;
+UIKIT_EXTERN NSString * const qiMenDunJiaURL;
+UIKIT_EXTERN NSString * const ziWeiDouShuURL;
+UIKIT_EXTERN NSString * const taLuoURL;
+UIKIT_EXTERN NSString * const jieMengURL;
 @end
 
 NS_ASSUME_NONNULL_END
