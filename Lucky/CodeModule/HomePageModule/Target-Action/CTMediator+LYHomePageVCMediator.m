@@ -9,11 +9,18 @@
 #import "LYJudgeVCTool.h"
 NSString *const kHomeTarget = @"LYHomePageAction";
 NSString *const kHomePushArticleDetailAction = @"pushArticleDetailVC";
+NSString *const kHomePushToolDetailAction = @"pushToolsDetailVC";
 
 @implementation CTMediator (LYHomePageVCMediator)
-- (UIViewController *)articleDetailViewController
+- (UIViewController *)articleDetailViewController:(NSDictionary *)param
 {
-    UIViewController *viewController = [self performTarget:kHomeTarget action:kHomePushArticleDetailAction params:nil shouldCacheTarget:NO];
+    UIViewController *viewController = [self performTarget:kHomeTarget action:kHomePushArticleDetailAction params:param shouldCacheTarget:NO];
+    return [LYJudgeVCTool judgeVc:viewController];
+}
+
+- (UIViewController *)toolDetailViewController:(NSDictionary *)param
+{
+    UIViewController *viewController = [self performTarget:kHomeTarget action:kHomePushToolDetailAction params:param shouldCacheTarget:NO];
     return [LYJudgeVCTool judgeVc:viewController];
 }
 @end

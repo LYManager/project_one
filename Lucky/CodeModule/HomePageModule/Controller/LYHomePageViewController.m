@@ -16,11 +16,14 @@
 @implementation LYHomePageViewController
 - (void)loadView
 {
-    self.view = [[LYHomePageView alloc]initWithViewTarget:self.homePresenter];
+    self.view = self.homePresenter.homePageView;
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.title = @"首页";
+    self.automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers;
+    [self.homePresenter configUI];
     [self loadRequest];
 }
 #pragma 🐒------数据请求------🐒

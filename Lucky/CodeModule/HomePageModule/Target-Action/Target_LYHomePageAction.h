@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_LYHomePageAction : NSObject
 - (UIViewController *)Action_pushArticleDetailVC:(NSDictionary *)param;
+
+- (UIViewController *)Action_pushToolsDetailVC:(NSDictionary *)param;
 @end
 
 NS_ASSUME_NONNULL_END

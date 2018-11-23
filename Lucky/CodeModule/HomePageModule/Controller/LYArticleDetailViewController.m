@@ -6,21 +6,46 @@
 // 
 // <#Class des#>
 #import "LYArticleDetailViewController.h"
-
+#import "LYArticleDetailPresenter.h"
 @interface LYArticleDetailViewController ()
-
+@property(nonatomic,strong)LYArticleDetailPresenter<LYArticleDetailViewController *> * detailPresenter;                /**< 详情中介*/
 @end
 
 @implementation LYArticleDetailViewController
 
+- (void)loadView
+{
+    self.view = self.detailPresenter.detailView;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
+    
+    [self configUI];
+    
+    if (self.articleID) {
+        
+        [self.detailPresenter loadRequestWithParams:@{@"id":@(self.articleID)}];
+    }else
+    {
+        [self.detailPresenter loadLinkWithURLString:self.linkURL];
+    }
+   
     // Do any additional setup after loading the view from its nib.
 }
-
 #pragma mark - Life
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    if (self.linkURL) {
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }
+    
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    if (self.linkURL) {
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }
+}
 #pragma mark - Public Methods
 
 #pragma mark - Notification
@@ -28,8 +53,27 @@
 #pragma mark - Delegate
 
 #pragma mark - Private Methods
+- (void) configUI
+{
+    
+}
 
 #pragma mark - Lazy
+
+- (LYArticleDetailPresenter<LYArticleDetailViewController *> *)detailPresenter
+{
+    if (!_detailPresenter) {
+        _detailPresenter = [[LYArticleDetailPresenter alloc]initWithView:self];
+        if (self.linkURL) {
+            _detailPresenter.webType = WebDetailType_HTTPURL;
+        }else
+        {
+            _detailPresenter.webType = WebDetailType_HTML;
+        }
+    }
+    return _detailPresenter;
+}
+
 
 #pragma mark - dealloc
 - (void) dealloc

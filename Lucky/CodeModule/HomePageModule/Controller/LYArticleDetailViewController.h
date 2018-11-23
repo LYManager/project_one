@@ -14,7 +14,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYArticleDetailViewController : LYBaseViewController
-
+@property(nonatomic,assign)NSInteger  articleID;                                    /**< 文章id*/
+@property(nonatomic,copy)NSString  * linkURL;                                    /**< 外链*/
 @end
 
 NS_ASSUME_NONNULL_END

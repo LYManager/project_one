@@ -22,14 +22,15 @@ NSString * const todayLuckURL = @"yunshi/getByUser"; // 今日运势
 
 NSString * const articleListURL = @"article/getList"; //文章
 
-NSString * const loginURL = @"site/login";  // 登录
+NSString * const articleDetailURL = @"article/getView"; //文章详情
 
-NSString * const phoneRegisterURL = @"site/register";  // 手机注册
-
-NSString * const protocolURL = @"site/accept";  // 协议
-
-NSString * const aboutUsURL = @"site/about"; // 关于我们
-
-NSString * const userDetailURL = @"site/getUser"; //  （用户）详情
+NSString * const baZiPaiPanURL = @"bzpp";
+NSString * const liuRenQiKeURL = @"lrpp";
+NSString * const xuanKongFeiXingURL = @"xkfx";
+NSString * const liuBoQiGuaURL = @"lyqg";
+NSString * const qiMenDunJiaURL = @"qmdj";
+NSString * const ziWeiDouShuURL = @"zwds";
+NSString * const taLuoURL = @"manual-list/253";
+NSString * const jieMengURL = @"jm-search/";  // 解梦
 
 @end

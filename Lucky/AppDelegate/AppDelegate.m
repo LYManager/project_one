@@ -7,8 +7,7 @@
 
 #import "AppDelegate.h"
 #import <FRDModuleManager/FRDModuleManager.h>
-#import "LYHomePageViewController.h"
-#import "LYBaseNavigationViewController.h"
+#import "LYPageContext.h"
 @interface AppDelegate ()
 
 @end
@@ -19,11 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    LYHomePageViewController * appVC = [[LYHomePageViewController alloc]init];
-    LYBaseNavigationViewController * navc = [[LYBaseNavigationViewController alloc]initWithRootViewController:appVC];
-    self.window.rootViewController = navc;
     [self.window makeKeyAndVisible];
-//    [[FRDModuleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    [[LYPageContext shareInstance]setupMainViewController];
     return YES;
 }
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
