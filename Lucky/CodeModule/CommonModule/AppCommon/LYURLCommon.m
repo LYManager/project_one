@@ -31,6 +31,6 @@ NSString * const liuBoQiGuaURL = @"lyqg";
 NSString * const qiMenDunJiaURL = @"qmdj";
 NSString * const ziWeiDouShuURL = @"zwds";
 NSString * const taLuoURL = @"manual-list/253";
-NSString * const jieMengURL = @"jm-search/";  // 解梦
+NSString * const jieMengURL = @"jm-search/520";  // 解梦
 
 @end

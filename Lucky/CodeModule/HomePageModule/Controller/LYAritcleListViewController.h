@@ -14,7 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LYAritcleListViewController : LYBaseViewController
-
+@property(nonatomic,assign)NSInteger category_id;                  /**< 分类id*/
 @end
 
 NS_ASSUME_NONNULL_END

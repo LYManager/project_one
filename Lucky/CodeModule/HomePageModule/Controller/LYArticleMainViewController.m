@@ -61,6 +61,7 @@
     _segHead.fontScale = 1.1;
     _segHead.headColor = LYRGBColor(224, 224, 224);
     _segHead.selectColor = LYRGBColor(213,170, 115);
+    _segHead.deSelectColor = LYRGBColor(60, 60, 60);
     _segScroll = [[MLMSegmentScroll alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_segHead.frame), SCREEN_WIDTH, SCREEN_HEIGHT-CGRectGetMaxY(_segHead.frame)) vcOrViews:[self childVCArr:categoryTitlelArr.count]];
     _segScroll.scrollEnabled = YES;
     _segScroll.loadAll = NO;
@@ -75,6 +76,8 @@
     NSMutableArray *arr = [NSMutableArray array];
     for (NSInteger i = 0; i < count; i ++) {
         LYAritcleListViewController  *vc = [[LYAritcleListViewController alloc]init];
+        LYArticleCategoryModel * category = self.categoryModelArr[i];
+        vc.category_id = category.article_category_id;
         [arr addObject:vc];
     }
     return arr;
