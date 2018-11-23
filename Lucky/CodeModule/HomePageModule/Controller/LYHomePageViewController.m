@@ -22,6 +22,7 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
+
     [self.homePresenter configUI];
     [self loadRequest];
 }

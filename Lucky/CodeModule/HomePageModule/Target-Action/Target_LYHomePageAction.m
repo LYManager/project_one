@@ -13,6 +13,7 @@
 {
     LYArticleDetailViewController * articleVC = [LYArticleDetailViewController new];
     articleVC.articleID = [param[@"articleID"] integerValue];
+
     return articleVC;
 }
 
@@ -20,8 +21,11 @@
 {
     LYArticleDetailViewController * articleVC = [LYArticleDetailViewController new];
     articleVC.linkURL = param[@"linkURL"];
+
     return articleVC;
 }
+
+
 
 - (UIViewController *)Action_pushMoreArticleVC:(NSDictionary *)param
 {

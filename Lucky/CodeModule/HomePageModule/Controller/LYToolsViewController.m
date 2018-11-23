@@ -55,7 +55,9 @@
 - (NSArray *)toolsUrlArr
 {
     if (!_toolsUrlArr) {
+
         _toolsUrlArr = @[xuanKongFeiXingURL,jieMengURL,taLuoURL,qiMenDunJiaURL,ziWeiDouShuURL,baZiPaiPanURL,liuBoQiGuaURL,liuRenQiKeURL];
+
     }
     return _toolsUrlArr;
 }

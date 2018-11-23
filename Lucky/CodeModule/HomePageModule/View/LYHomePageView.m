@@ -33,9 +33,11 @@
         tableView.rowHeight = 120;
         tableView.dataSource = target;
         tableView.delegate = target;
+
         
         _bottomView = [[LYHomePageBottomView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 100)];
         tableView.tableFooterView = _bottomView;
+
         tableView;
     });
     [self addSubview:_tableView];

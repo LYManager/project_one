@@ -14,7 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)toolDetailViewController:(NSDictionary *)param;
 
+
 - (UIViewController *)moreArticleViewController:(NSDictionary *)param;
+
 @end
 
 NS_ASSUME_NONNULL_END

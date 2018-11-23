@@ -734,12 +734,8 @@
 			files = (
 			);
 			inputPaths = (
-<<<<<<< Updated upstream
-				"${SRCROOT}/Pods/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh",
-=======
 				"${PODS_ROOT}/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh",
 				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
->>>>>>> Stashed changes
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
@@ -751,7 +747,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C96AB8F374EABBEAA99A971B /* [CP] Check Pods Manifest.lock */ = {
@@ -948,7 +944,7 @@
 		};
 		636FA29A21A2A53000F4030E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE2D121C5B5DDA0BF30DA45 /* Pods-Lucky.debug.xcconfig */;
+			baseConfigurationReference = A4EAC53ABB3B3B7824D71E3B /* Pods-Lucky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -972,7 +968,7 @@
 		};
 		636FA29B21A2A53000F4030E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58438B19440A8C215DDBD74 /* Pods-Lucky.release.xcconfig */;
+			baseConfigurationReference = 819C31AE5779A426BF7A52C2 /* Pods-Lucky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -9,7 +9,9 @@
 #import "CTMediator+LYHomePageVCMediator.h"
 #import "LYArticleListTableViewCell.h"
 #import "LYArticleListModel.h"
+
 @interface LYHomePagePresenter ()<APIManagerApiCallBackDelegate,LYHomePageBottomViewDelegate>
+
 @property(nonatomic,strong,readwrite)LYHomePageView * homePageView;
 @property(nonatomic,strong)NSArray<LYArticleListModel *> * articleModelArray;                /**< 文章数组*/
 @end
@@ -35,7 +37,9 @@
 - (void)configUI
 {
     [self.homePageView.tableView registerClass:[LYArticleListTableViewCell class] forCellReuseIdentifier:kArticleListCellIdentifier];
+
     self.homePageView.bottomView.delegate = self;
+
 }
 
 #pragma 🐒------UITableViewDataSource,UITabBarDelegate------🐒
@@ -59,6 +63,7 @@
 {
     LYArticleListModel * model = self.articleModelArray[indexPath.row];
     [((UIViewController *)self.view).navigationController pushViewController:[[CTMediator sharedInstance]articleDetailViewController:@{@"articleID":@(model.article_id) ? : @""}] animated:YES];
+
 }
 #pragma 🐒------更多------🐒
 - (void)moreArticle
@@ -85,5 +90,9 @@
     }
     return _homePageView;
 }
+
+
+
+
 
 @end
