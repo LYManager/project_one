@@ -6,6 +6,7 @@
 // 
 
 #import <UIKit/UIKit.h>
+#import "LYHomePageBottomView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,strong)UITableView * tableView;                /**< tableView*/
 
+@property(nonatomic,strong)LYHomePageBottomView * bottomView;                /**< 加个footerView*/
 @end
 
 NS_ASSUME_NONNULL_END

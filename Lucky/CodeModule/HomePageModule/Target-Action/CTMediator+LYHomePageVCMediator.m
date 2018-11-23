@@ -10,7 +10,7 @@
 NSString *const kHomeTarget = @"LYHomePageAction";
 NSString *const kHomePushArticleDetailAction = @"pushArticleDetailVC";
 NSString *const kHomePushToolDetailAction = @"pushToolsDetailVC";
-
+NSString *const kHomePushMoreArticleAction = @"pushMoreArticleVC";
 @implementation CTMediator (LYHomePageVCMediator)
 - (UIViewController *)articleDetailViewController:(NSDictionary *)param
 {
@@ -21,6 +21,12 @@ NSString *const kHomePushToolDetailAction = @"pushToolsDetailVC";
 - (UIViewController *)toolDetailViewController:(NSDictionary *)param
 {
     UIViewController *viewController = [self performTarget:kHomeTarget action:kHomePushToolDetailAction params:param shouldCacheTarget:NO];
+    return [LYJudgeVCTool judgeVc:viewController];
+}
+
+- (UIViewController *)moreArticleViewController:(NSDictionary *)param
+{
+    UIViewController *viewController = [self performTarget:kHomeTarget action:kHomePushMoreArticleAction params:param shouldCacheTarget:NO];
     return [LYJudgeVCTool judgeVc:viewController];
 }
 @end

@@ -41,14 +41,7 @@
 #pragma mark - Notification
 
 #pragma mark - Delegate
-//UIKIT_EXTERN NSString * const baZiPaiPanURL;
-//UIKIT_EXTERN NSString * const liuRenQiKeURL;
-//UIKIT_EXTERN NSString * const xuanKongFeiXingURL;
-//UIKIT_EXTERN NSString * const taLuoURL;
-//UIKIT_EXTERN NSString * const liuBoQiGuaURL;
-//UIKIT_EXTERN NSString * const qiMenDunJiaURL;
-//UIKIT_EXTERN NSString * const jieMengURL;
-//UIKIT_EXTERN NSString * const ziWeiDouShuURL;
+
 - (void)didSelectedItemWithIndex:(NSInteger)index
 {
     NSString *url = self.toolsUrlArr[index];
@@ -62,9 +55,7 @@
 - (NSArray *)toolsUrlArr
 {
     if (!_toolsUrlArr) {
-        _toolsUrlArr =
-//        @[baZiPaiPanURL,liuRenQiKeURL,xuanKongFeiXingURL,taLuoURL,liuBoQiGuaURL,qiMenDunJiaURL,jieMengURL,ziWeiDouShuURL];
-  @[xuanKongFeiXingURL,jieMengURL,taLuoURL,qiMenDunJiaURL,ziWeiDouShuURL,baZiPaiPanURL,liuBoQiGuaURL,liuRenQiKeURL];
+        _toolsUrlArr = @[xuanKongFeiXingURL,jieMengURL,taLuoURL,qiMenDunJiaURL,ziWeiDouShuURL,baZiPaiPanURL,liuBoQiGuaURL,liuRenQiKeURL];
     }
     return _toolsUrlArr;
 }

@@ -15,7 +15,12 @@ target 'Lucky' do
     pod 'YYKit', '~> 1.0.9'
     pod 'TZImagePickerController'
     pod 'CTMediator', '~> 25'
+<<<<<<< Updated upstream
     pod 'JPush'
+=======
+    
+    pod 'AVOSCloud', '~> 11.4.7'
+>>>>>>> Stashed changes
   # Pods for Lucky
 
 end

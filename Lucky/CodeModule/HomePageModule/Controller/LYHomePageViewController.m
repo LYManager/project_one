@@ -22,7 +22,6 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
-    self.automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers;
     [self.homePresenter configUI];
     [self loadRequest];
 }

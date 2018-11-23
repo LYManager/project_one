@@ -9,7 +9,7 @@
 #import "CTMediator+LYHomePageVCMediator.h"
 #import "LYArticleListTableViewCell.h"
 #import "LYArticleListModel.h"
-@interface LYHomePagePresenter ()<APIManagerApiCallBackDelegate>
+@interface LYHomePagePresenter ()<APIManagerApiCallBackDelegate,LYHomePageBottomViewDelegate>
 @property(nonatomic,strong,readwrite)LYHomePageView * homePageView;
 @property(nonatomic,strong)NSArray<LYArticleListModel *> * articleModelArray;                /**< 文章数组*/
 @end
@@ -35,6 +35,7 @@
 - (void)configUI
 {
     [self.homePageView.tableView registerClass:[LYArticleListTableViewCell class] forCellReuseIdentifier:kArticleListCellIdentifier];
+    self.homePageView.bottomView.delegate = self;
 }
 
 #pragma 🐒------UITableViewDataSource,UITabBarDelegate------🐒
@@ -52,7 +53,6 @@
     LYArticleListModel * model = self.articleModelArray[indexPath.row];
     LYArticleListTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:kArticleListCellIdentifier forIndexPath:indexPath];
     [self configCell:cell withModel:model];
-
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -60,6 +60,12 @@
     LYArticleListModel * model = self.articleModelArray[indexPath.row];
     [((UIViewController *)self.view).navigationController pushViewController:[[CTMediator sharedInstance]articleDetailViewController:@{@"articleID":@(model.article_id) ? : @""}] animated:YES];
 }
+#pragma 🐒------更多------🐒
+- (void)moreArticle
+{
+  [((UIViewController *)self.view).navigationController pushViewController:[[CTMediator sharedInstance]moreArticleViewController:@{}] animated:YES];
+}
+
 #pragma 🐒------Pirvate------🐒
 // 设置cell数据
 - (void) configCell:(LYArticleListTableViewCell *)cell withModel:(LYArticleListModel *)model

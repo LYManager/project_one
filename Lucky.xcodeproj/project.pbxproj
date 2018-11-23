@@ -34,6 +34,19 @@
 		6333944621A2CE3600DE2DA7 /* LYPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944521A2CE3600DE2DA7 /* LYPresenter.m */; };
 		6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944921A2D5EF00DE2DA7 /* LYHomePagePresenter.m */; };
 		6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333944C21A2D60100DE2DA7 /* LYHttpPresenter.m */; };
+		6336383221A7DBD900CC4033 /* MLMSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336382721A7DBD900CC4033 /* MLMSegmentManager.m */; };
+		6336383321A7DBD900CC4033 /* MLMSegmentHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336382821A7DBD900CC4033 /* MLMSegmentHead.m */; };
+		6336383421A7DBD900CC4033 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336382921A7DBD900CC4033 /* UIView+ViewController.m */; };
+		6336383521A7DBD900CC4033 /* MLMSegmentScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336382A21A7DBD900CC4033 /* MLMSegmentScroll.m */; };
+		6336383621A7DBD900CC4033 /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336382B21A7DBD900CC4033 /* UIView+EasyFrame.m */; };
+		6336383921A7DC6200CC4033 /* LYArticleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336383821A7DC6200CC4033 /* LYArticleMainViewController.m */; };
+		6336383C21A7DDF400CC4033 /* LYHomePageBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336383B21A7DDF400CC4033 /* LYHomePageBottomView.m */; };
+		6336383F21A7E68100CC4033 /* LYAritcleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336383E21A7E68100CC4033 /* LYAritcleListViewController.m */; };
+		6336384221A7E6AB00CC4033 /* LYArticleListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384121A7E6AB00CC4033 /* LYArticleListPresenter.m */; };
+		6336384521A7E6C800CC4033 /* LYArticleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384421A7E6C800CC4033 /* LYArticleListView.m */; };
+		6336384821A7EB9D00CC4033 /* LYArticleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384621A7EB9D00CC4033 /* LYArticleRequest.m */; };
+		6336384B21A7EBC100CC4033 /* LYArticleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384921A7EBC100CC4033 /* LYArticleData.m */; };
+		6336384E21A7EC1800CC4033 /* LYArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384D21A7EC1800CC4033 /* LYArticleModel.m */; };
 		636FA29021A2A53000F4030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28F21A2A53000F4030E /* Assets.xcassets */; };
 		636FA29621A2A53000F4030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29521A2A53000F4030E /* main.m */; };
 		636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29E21A2AEAC00F4030E /* AppDelegate.m */; };
@@ -108,6 +121,33 @@
 		6333944B21A2D60100DE2DA7 /* LYHttpPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHttpPresenter.h; sourceTree = "<group>"; };
 		6333944C21A2D60100DE2DA7 /* LYHttpPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHttpPresenter.m; sourceTree = "<group>"; };
 		6333944E21A2D6AE00DE2DA7 /* LYHttpResponseHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHttpResponseHandle.h; sourceTree = "<group>"; };
+		6336382721A7DBD900CC4033 /* MLMSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentManager.m; sourceTree = "<group>"; };
+		6336382821A7DBD900CC4033 /* MLMSegmentHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentHead.m; sourceTree = "<group>"; };
+		6336382921A7DBD900CC4033 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		6336382A21A7DBD900CC4033 /* MLMSegmentScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentScroll.m; sourceTree = "<group>"; };
+		6336382B21A7DBD900CC4033 /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
+		6336382C21A7DBD900CC4033 /* SegmentPageHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentPageHead.h; sourceTree = "<group>"; };
+		6336382D21A7DBD900CC4033 /* MLMSegmentHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentHead.h; sourceTree = "<group>"; };
+		6336382E21A7DBD900CC4033 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		6336382F21A7DBD900CC4033 /* MLMSegmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentManager.h; sourceTree = "<group>"; };
+		6336383021A7DBD900CC4033 /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
+		6336383121A7DBD900CC4033 /* MLMSegmentScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentScroll.h; sourceTree = "<group>"; };
+		6336383721A7DC6200CC4033 /* LYArticleMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArticleMainViewController.h; sourceTree = "<group>"; };
+		6336383821A7DC6200CC4033 /* LYArticleMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArticleMainViewController.m; sourceTree = "<group>"; };
+		6336383A21A7DDF400CC4033 /* LYHomePageBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHomePageBottomView.h; sourceTree = "<group>"; };
+		6336383B21A7DDF400CC4033 /* LYHomePageBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHomePageBottomView.m; sourceTree = "<group>"; };
+		6336383D21A7E68100CC4033 /* LYAritcleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAritcleListViewController.h; sourceTree = "<group>"; };
+		6336383E21A7E68100CC4033 /* LYAritcleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAritcleListViewController.m; sourceTree = "<group>"; };
+		6336384021A7E6AB00CC4033 /* LYArticleListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArticleListPresenter.h; sourceTree = "<group>"; };
+		6336384121A7E6AB00CC4033 /* LYArticleListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArticleListPresenter.m; sourceTree = "<group>"; };
+		6336384321A7E6C800CC4033 /* LYArticleListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArticleListView.h; sourceTree = "<group>"; };
+		6336384421A7E6C800CC4033 /* LYArticleListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArticleListView.m; sourceTree = "<group>"; };
+		6336384621A7EB9D00CC4033 /* LYArticleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYArticleRequest.m; sourceTree = "<group>"; };
+		6336384721A7EB9D00CC4033 /* LYArticleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleRequest.h; sourceTree = "<group>"; };
+		6336384921A7EBC100CC4033 /* LYArticleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYArticleData.m; sourceTree = "<group>"; };
+		6336384A21A7EBC100CC4033 /* LYArticleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleData.h; sourceTree = "<group>"; };
+		6336384C21A7EC1800CC4033 /* LYArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleModel.h; sourceTree = "<group>"; };
+		6336384D21A7EC1800CC4033 /* LYArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYArticleModel.m; sourceTree = "<group>"; };
 		636FA28321A2A52E00F4030E /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636FA28F21A2A53000F4030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636FA29421A2A53000F4030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -282,6 +322,24 @@
 			path = BasePresenter;
 			sourceTree = "<group>";
 		};
+		6336382621A7DBD900CC4033 /* MLMSegmentPageView */ = {
+			isa = PBXGroup;
+			children = (
+				6336382721A7DBD900CC4033 /* MLMSegmentManager.m */,
+				6336382821A7DBD900CC4033 /* MLMSegmentHead.m */,
+				6336382921A7DBD900CC4033 /* UIView+ViewController.m */,
+				6336382A21A7DBD900CC4033 /* MLMSegmentScroll.m */,
+				6336382B21A7DBD900CC4033 /* UIView+EasyFrame.m */,
+				6336382C21A7DBD900CC4033 /* SegmentPageHead.h */,
+				6336382D21A7DBD900CC4033 /* MLMSegmentHead.h */,
+				6336382E21A7DBD900CC4033 /* UIView+ViewController.h */,
+				6336382F21A7DBD900CC4033 /* MLMSegmentManager.h */,
+				6336383021A7DBD900CC4033 /* UIView+EasyFrame.h */,
+				6336383121A7DBD900CC4033 /* MLMSegmentScroll.h */,
+			);
+			path = MLMSegmentPageView;
+			sourceTree = "<group>";
+		};
 		636FA27A21A2A52E00F4030E = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +410,7 @@
 		636FA2A121A2AEAC00F4030E /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				6336382621A7DBD900CC4033 /* MLMSegmentPageView */,
 			);
 			path = ThirdLib;
 			sourceTree = "<group>";
@@ -498,6 +557,8 @@
 				6333944921A2D5EF00DE2DA7 /* LYHomePagePresenter.m */,
 				639EA52621A6641900A1C04C /* LYArticleDetailPresenter.h */,
 				639EA52721A6641900A1C04C /* LYArticleDetailPresenter.m */,
+				6336384021A7E6AB00CC4033 /* LYArticleListPresenter.h */,
+				6336384121A7E6AB00CC4033 /* LYArticleListPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -515,6 +576,10 @@
 			children = (
 				6333944121A2CC9000DE2DA7 /* LYHomePageViewController.h */,
 				6333944221A2CC9000DE2DA7 /* LYHomePageViewController.m */,
+				6336383721A7DC6200CC4033 /* LYArticleMainViewController.h */,
+				6336383821A7DC6200CC4033 /* LYArticleMainViewController.m */,
+				6336383D21A7E68100CC4033 /* LYAritcleListViewController.h */,
+				6336383E21A7E68100CC4033 /* LYAritcleListViewController.m */,
 				63277D4B21A3E0A600194751 /* LYArticleDetailViewController.h */,
 				63277D4C21A3E0A600194751 /* LYArticleDetailViewController.m */,
 				639EA53621A68F6200A1C04C /* LYToolsViewController.h */,
@@ -526,6 +591,10 @@
 		636FA2B521A2AEAC00F4030E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6336384C21A7EC1800CC4033 /* LYArticleModel.h */,
+				6336384D21A7EC1800CC4033 /* LYArticleModel.m */,
+				6336384A21A7EBC100CC4033 /* LYArticleData.h */,
+				6336384921A7EBC100CC4033 /* LYArticleData.m */,
 				63277D5C21A3F86400194751 /* LYArticleCategoryModel.h */,
 				63277D5B21A3F86400194751 /* LYArticleCategoryModel.m */,
 				63277D5521A3F55F00194751 /* LYHomeDataResponse.h */,
@@ -545,10 +614,14 @@
 				639EA53321A68F3A00A1C04C /* LYMineView.m */,
 				63277D4221A3C89700194751 /* LYHomePageView.h */,
 				63277D4321A3C89700194751 /* LYHomePageView.m */,
+				6336384321A7E6C800CC4033 /* LYArticleListView.h */,
+				6336384421A7E6C800CC4033 /* LYArticleListView.m */,
 				639EA51F21A6482E00A1C04C /* LYArticleListTableViewCell.h */,
 				639EA52021A6482E00A1C04C /* LYArticleListTableViewCell.m */,
 				639EA52321A662F200A1C04C /* LYArticleDetailView.h */,
 				639EA52421A662F200A1C04C /* LYArticleDetailView.m */,
+				6336383A21A7DDF400CC4033 /* LYHomePageBottomView.h */,
+				6336383B21A7DDF400CC4033 /* LYHomePageBottomView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -556,6 +629,8 @@
 		636FA2B721A2AEAC00F4030E /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				6336384721A7EB9D00CC4033 /* LYArticleRequest.h */,
+				6336384621A7EB9D00CC4033 /* LYArticleRequest.m */,
 				63277D3F21A3B8A800194751 /* LYHomePageRequest.h */,
 				63277D4021A3B8A800194751 /* LYHomePageRequest.m */,
 				639EA52921A6732700A1C04C /* LYArticleDetailRequest.h */,
@@ -659,12 +734,18 @@
 			files = (
 			);
 			inputPaths = (
+<<<<<<< Updated upstream
 				"${SRCROOT}/Pods/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh",
+=======
+				"${PODS_ROOT}/Target Support Files/Pods-Lucky/Pods-Lucky-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+>>>>>>> Stashed changes
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
@@ -703,9 +784,12 @@
 				6333944321A2CC9000DE2DA7 /* LYHomePageViewController.m in Sources */,
 				639EA53221A6887100A1C04C /* LYPageContext.m in Sources */,
 				63277D3021A3A56400194751 /* LYPageAPIRequest.m in Sources */,
+				6336383521A7DBD900CC4033 /* MLMSegmentScroll.m in Sources */,
 				63277D5D21A3F86400194751 /* LYArticleCategoryModel.m in Sources */,
 				6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */,
+				6336384E21A7EC1800CC4033 /* LYArticleModel.m in Sources */,
 				63277D2D21A3A55300194751 /* LYBaseAPIRequest.m in Sources */,
+				6336384821A7EB9D00CC4033 /* LYArticleRequest.m in Sources */,
 				63277D5A21A3F7A500194751 /* LYArticleListModel.m in Sources */,
 				63277D4A21A3DF7E00194751 /* CTMediator+LYHomePageVCMediator.m in Sources */,
 				63277D5121A3E1F900194751 /* LYJudgeVCTool.m in Sources */,
@@ -713,18 +797,24 @@
 				63277D3821A3A84900194751 /* LYAppCommon.m in Sources */,
 				63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */,
 				639EA53521A68F3A00A1C04C /* LYMineView.m in Sources */,
+				6336383421A7DBD900CC4033 /* UIView+ViewController.m in Sources */,
+				6336383221A7DBD900CC4033 /* MLMSegmentManager.m in Sources */,
 				636FA29621A2A53000F4030E /* main.m in Sources */,
 				63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */,
+				6336384521A7E6C800CC4033 /* LYArticleListView.m in Sources */,
 				6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */,
 				63277D4121A3B8A800194751 /* LYHomePageRequest.m in Sources */,
 				636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */,
 				6333942C21A2C1AC00DE2DA7 /* LYBaseTabBarController.m in Sources */,
 				63277D5421A3E74700194751 /* Target_LYHomePageAction.m in Sources */,
 				63277D3421A3A79200194751 /* MBProgressHUD+LYAdditions.m in Sources */,
+				6336383321A7DBD900CC4033 /* MLMSegmentHead.m in Sources */,
 				6333944621A2CE3600DE2DA7 /* LYPresenter.m in Sources */,
+				6336383C21A7DDF400CC4033 /* LYHomePageBottomView.m in Sources */,
 				63277D2221A3A17A00194751 /* LYBaseAPIProxy.m in Sources */,
 				63277D4421A3C89700194751 /* LYHomePageView.m in Sources */,
 				639EA52521A662F200A1C04C /* LYArticleDetailView.m in Sources */,
+				6336383F21A7E68100CC4033 /* LYAritcleListViewController.m in Sources */,
 				639EA53821A68F6200A1C04C /* LYToolsViewController.m in Sources */,
 				639EA52B21A6732700A1C04C /* LYArticleDetailRequest.m in Sources */,
 				639EA52121A6482E00A1C04C /* LYArticleListTableViewCell.m in Sources */,
@@ -732,6 +822,10 @@
 				639EA52821A6641900A1C04C /* LYArticleDetailPresenter.m in Sources */,
 				6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */,
 				63277D4D21A3E0A600194751 /* LYArticleDetailViewController.m in Sources */,
+				6336384221A7E6AB00CC4033 /* LYArticleListPresenter.m in Sources */,
+				6336383621A7DBD900CC4033 /* UIView+EasyFrame.m in Sources */,
+				6336383921A7DC6200CC4033 /* LYArticleMainViewController.m in Sources */,
+				6336384B21A7EBC100CC4033 /* LYArticleData.m in Sources */,
 				6333943021A2C22D00DE2DA7 /* UIBarButtonItem+HSImageBarButton.m in Sources */,
 				63277D3B21A3AC1A00194751 /* LYURLCommon.m in Sources */,
 			);

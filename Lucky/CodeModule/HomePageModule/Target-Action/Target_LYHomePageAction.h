@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIViewController *)Action_pushArticleDetailVC:(NSDictionary *)param;
 
 - (UIViewController *)Action_pushToolsDetailVC:(NSDictionary *)param;
+
+- (UIViewController *)Action_pushMoreArticleVC:(NSDictionary *)param;
 @end
 
 NS_ASSUME_NONNULL_END

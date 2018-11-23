@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AVOSCloud (11.4.7)
   - CTMediator (25)
   - FRDModuleManager (0.1.0)
   - JCore (1.2.5)
@@ -34,6 +35,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AVOSCloud (~> 11.4.7)
   - CTMediator (~> 25)
   - FRDModuleManager (from `https://github.com/lincode/FRDModuleManager.git`, commit `0.1.0`)
   - JPush
@@ -49,6 +51,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AVOSCloud
     - CTMediator
     - JCore
     - JPush
@@ -73,6 +76,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AVOSCloud: e1257f9a7c28e04ae8642d554a37654e8392d1b7
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FRDModuleManager: 125020c723f55d2232afd617578a0bad7fc04182
   JCore: 14706de2640b25fb77dbd02332696491407f37c9
@@ -86,6 +90,10 @@ SPEC CHECKSUMS:
   TZImagePickerController: 29b279caee3309cbaa04ef1384b036ec90297f3f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
+<<<<<<< Updated upstream
 PODFILE CHECKSUM: f63a864712c6136223a47015585bc11c254ce8c2
+=======
+PODFILE CHECKSUM: 541a4f8e8505438d2635939fe3be26bce84e0d6b
+>>>>>>> Stashed changes
 
 COCOAPODS: 1.5.3
