@@ -16,6 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - CTMediator (25)
   - FRDModuleManager (0.1.0)
+  - JCore (1.2.5)
+  - JPush (3.1.1.1):
+    - JCore (~> 1.2.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.15.7)
@@ -33,6 +36,7 @@ DEPENDENCIES:
   - AFNetworking
   - CTMediator (~> 25)
   - FRDModuleManager (from `https://github.com/lincode/FRDModuleManager.git`, commit `0.1.0`)
+  - JPush
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -46,6 +50,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CTMediator
+    - JCore
+    - JPush
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -69,6 +75,8 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FRDModuleManager: 125020c723f55d2232afd617578a0bad7fc04182
+  JCore: 14706de2640b25fb77dbd02332696491407f37c9
+  JPush: 25dd9013fbe106082c14f9f30a82364ee98852fb
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
@@ -78,6 +86,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 29b279caee3309cbaa04ef1384b036ec90297f3f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: a1e86eebcc54fcde1049bd723e33c2e48c801c17
+PODFILE CHECKSUM: f63a864712c6136223a47015585bc11c254ce8c2
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.5.3

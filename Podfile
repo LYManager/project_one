@@ -15,6 +15,7 @@ target 'Lucky' do
     pod 'YYKit', '~> 1.0.9'
     pod 'TZImagePickerController'
     pod 'CTMediator', '~> 25'
+    pod 'JPush'
   # Pods for Lucky
 
 end
