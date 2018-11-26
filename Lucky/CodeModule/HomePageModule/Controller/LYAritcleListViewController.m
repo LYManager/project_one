@@ -26,6 +26,8 @@
 - (void) configUI
 {
     [self.presenter configUI];
+    
+    [self.presenter loadRequestWithParams:@{@"category_id":@(self.category_id)}];
 }
 
 #pragma mark - Life

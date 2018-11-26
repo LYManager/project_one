@@ -66,6 +66,7 @@
 
 /**🐶自己计算后的attributeString    👇*/
 @property(nonatomic,strong)NSAttributedString *  attributeContent;
+- (NSAttributedString *) ly_getAttributeSummary;
 @end
 
 

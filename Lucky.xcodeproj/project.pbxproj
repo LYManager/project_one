@@ -47,6 +47,8 @@
 		6336384821A7EB9D00CC4033 /* LYArticleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384621A7EB9D00CC4033 /* LYArticleRequest.m */; };
 		6336384B21A7EBC100CC4033 /* LYArticleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384921A7EBC100CC4033 /* LYArticleData.m */; };
 		6336384E21A7EC1800CC4033 /* LYArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336384D21A7EC1800CC4033 /* LYArticleModel.m */; };
+		6336385121A802BC00CC4033 /* LYArticleListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336385021A802BC00CC4033 /* LYArticleListRequest.m */; };
+		6336385421A8045700CC4033 /* LYAllArticleDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336385321A8045700CC4033 /* LYAllArticleDataModel.m */; };
 		636FA29021A2A53000F4030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636FA28F21A2A53000F4030E /* Assets.xcassets */; };
 		636FA29621A2A53000F4030E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29521A2A53000F4030E /* main.m */; };
 		636FA2B821A2AEAC00F4030E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636FA29E21A2AEAC00F4030E /* AppDelegate.m */; };
@@ -148,6 +150,10 @@
 		6336384A21A7EBC100CC4033 /* LYArticleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleData.h; sourceTree = "<group>"; };
 		6336384C21A7EC1800CC4033 /* LYArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYArticleModel.h; sourceTree = "<group>"; };
 		6336384D21A7EC1800CC4033 /* LYArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYArticleModel.m; sourceTree = "<group>"; };
+		6336384F21A802BC00CC4033 /* LYArticleListRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArticleListRequest.h; sourceTree = "<group>"; };
+		6336385021A802BC00CC4033 /* LYArticleListRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArticleListRequest.m; sourceTree = "<group>"; };
+		6336385221A8045700CC4033 /* LYAllArticleDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAllArticleDataModel.h; sourceTree = "<group>"; };
+		6336385321A8045700CC4033 /* LYAllArticleDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAllArticleDataModel.m; sourceTree = "<group>"; };
 		636FA28321A2A52E00F4030E /* Lucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636FA28F21A2A53000F4030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636FA29421A2A53000F4030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -591,6 +597,8 @@
 		636FA2B521A2AEAC00F4030E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6336385221A8045700CC4033 /* LYAllArticleDataModel.h */,
+				6336385321A8045700CC4033 /* LYAllArticleDataModel.m */,
 				6336384C21A7EC1800CC4033 /* LYArticleModel.h */,
 				6336384D21A7EC1800CC4033 /* LYArticleModel.m */,
 				6336384A21A7EBC100CC4033 /* LYArticleData.h */,
@@ -631,6 +639,8 @@
 			children = (
 				6336384721A7EB9D00CC4033 /* LYArticleRequest.h */,
 				6336384621A7EB9D00CC4033 /* LYArticleRequest.m */,
+				6336384F21A802BC00CC4033 /* LYArticleListRequest.h */,
+				6336385021A802BC00CC4033 /* LYArticleListRequest.m */,
 				63277D3F21A3B8A800194751 /* LYHomePageRequest.h */,
 				63277D4021A3B8A800194751 /* LYHomePageRequest.m */,
 				639EA52921A6732700A1C04C /* LYArticleDetailRequest.h */,
@@ -793,7 +803,9 @@
 				63277D3821A3A84900194751 /* LYAppCommon.m in Sources */,
 				63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */,
 				639EA53521A68F3A00A1C04C /* LYMineView.m in Sources */,
+				6336385421A8045700CC4033 /* LYAllArticleDataModel.m in Sources */,
 				6336383421A7DBD900CC4033 /* UIView+ViewController.m in Sources */,
+				6336385121A802BC00CC4033 /* LYArticleListRequest.m in Sources */,
 				6336383221A7DBD900CC4033 /* MLMSegmentManager.m in Sources */,
 				636FA29621A2A53000F4030E /* main.m in Sources */,
 				63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */,
