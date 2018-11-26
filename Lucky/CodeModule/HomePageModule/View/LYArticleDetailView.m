@@ -52,8 +52,6 @@
         }
             break;
     }
-   
-    
 }
 
 - (void)layoutSubviews
