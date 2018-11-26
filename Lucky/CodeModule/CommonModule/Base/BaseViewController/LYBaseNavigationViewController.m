@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationBar insertSubview:self.blurBackView atIndex:0];
+//    [self.navigationBar insertSubview:self.blurBackView atIndex:0];
+    [self.navigationBar setBarTintColor:[UIColor blackColor]];
+    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     // Do any additional setup after loading the view.
 }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
