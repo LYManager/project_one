@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E98B00921ABE057009A2D41 /* KProjectNetworkDisConnectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98AFF721ABE057009A2D41 /* KProjectNetworkDisConnectedView.m */; };
+		3E98B00A21ABE057009A2D41 /* KProjectBottomOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98AFF921ABE057009A2D41 /* KProjectBottomOperationView.m */; };
+		3E98B00B21ABE057009A2D41 /* KProjectProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98AFFB21ABE057009A2D41 /* KProjectProgressView.m */; };
+		3E98B00C21ABE057009A2D41 /* NSObject+CategoryExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98AFFE21ABE057009A2D41 /* NSObject+CategoryExtension.m */; };
+		3E98B00D21ABE057009A2D41 /* NSString+CategoryExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98AFFF21ABE057009A2D41 /* NSString+CategoryExtension.m */; };
+		3E98B00E21ABE057009A2D41 /* AppDelegate+CategoryExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98B00021ABE057009A2D41 /* AppDelegate+CategoryExtension.m */; };
+		3E98B00F21ABE057009A2D41 /* KProjectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98B00521ABE057009A2D41 /* KProjectRootViewController.m */; };
+		3E98B01021ABE057009A2D41 /* KProjectNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98B00821ABE057009A2D41 /* KProjectNavigationViewController.m */; };
+		3E98B01521ABEDE5009A2D41 /* BaseTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98B01121ABEDE4009A2D41 /* BaseTabbarView.m */; };
+		3E98B01621ABEDE5009A2D41 /* BaseTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E98B01421ABEDE5009A2D41 /* BaseTabbarButton.m */; };
+		3ED6859C21ABD85700CEBDAC /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6859221ABD85700CEBDAC /* SVRadialGradientLayer.m */; };
+		3ED6859D21ABD85700CEBDAC /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6859521ABD85700CEBDAC /* SVProgressAnimatedView.m */; };
+		3ED6859E21ABD85700CEBDAC /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6859821ABD85700CEBDAC /* SVProgressHUD.m */; };
+		3ED6859F21ABD85700CEBDAC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6859921ABD85700CEBDAC /* SVIndefiniteAnimatedView.m */; };
+		3ED685A021ABD85700CEBDAC /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6859A21ABD85700CEBDAC /* SVProgressHUD.bundle */; };
 		63277D2221A3A17A00194751 /* LYBaseAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2121A3A17A00194751 /* LYBaseAPIProxy.m */; };
 		63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2421A3A1E200194751 /* LYBaseAPIResponse.m */; };
 		63277D2921A3A40D00194751 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63277D2721A3A40D00194751 /* NSObject+Additions.m */; };
@@ -66,6 +81,36 @@
 
 /* Begin PBXFileReference section */
 		12C41CF9D979D93D529D7115 /* libPods-Lucky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E98AFF721ABE057009A2D41 /* KProjectNetworkDisConnectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KProjectNetworkDisConnectedView.m; sourceTree = "<group>"; };
+		3E98AFF821ABE057009A2D41 /* KProjectProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KProjectProgressView.h; sourceTree = "<group>"; };
+		3E98AFF921ABE057009A2D41 /* KProjectBottomOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KProjectBottomOperationView.m; sourceTree = "<group>"; };
+		3E98AFFA21ABE057009A2D41 /* KProjectNetworkDisConnectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KProjectNetworkDisConnectedView.h; sourceTree = "<group>"; };
+		3E98AFFB21ABE057009A2D41 /* KProjectProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KProjectProgressView.m; sourceTree = "<group>"; };
+		3E98AFFC21ABE057009A2D41 /* KProjectBottomOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KProjectBottomOperationView.h; sourceTree = "<group>"; };
+		3E98AFFE21ABE057009A2D41 /* NSObject+CategoryExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CategoryExtension.m"; sourceTree = "<group>"; };
+		3E98AFFF21ABE057009A2D41 /* NSString+CategoryExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CategoryExtension.m"; sourceTree = "<group>"; };
+		3E98B00021ABE057009A2D41 /* AppDelegate+CategoryExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CategoryExtension.m"; sourceTree = "<group>"; };
+		3E98B00121ABE057009A2D41 /* NSObject+CategoryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CategoryExtension.h"; sourceTree = "<group>"; };
+		3E98B00221ABE057009A2D41 /* AppDelegate+CategoryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CategoryExtension.h"; sourceTree = "<group>"; };
+		3E98B00321ABE057009A2D41 /* NSString+CategoryExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CategoryExtension.h"; sourceTree = "<group>"; };
+		3E98B00521ABE057009A2D41 /* KProjectRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KProjectRootViewController.m; sourceTree = "<group>"; };
+		3E98B00621ABE057009A2D41 /* KProjectNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KProjectNavigationViewController.h; sourceTree = "<group>"; };
+		3E98B00721ABE057009A2D41 /* KProjectRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KProjectRootViewController.h; sourceTree = "<group>"; };
+		3E98B00821ABE057009A2D41 /* KProjectNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KProjectNavigationViewController.m; sourceTree = "<group>"; };
+		3E98B01121ABEDE4009A2D41 /* BaseTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarView.m; sourceTree = "<group>"; };
+		3E98B01221ABEDE5009A2D41 /* BaseTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarView.h; sourceTree = "<group>"; };
+		3E98B01321ABEDE5009A2D41 /* BaseTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarButton.h; sourceTree = "<group>"; };
+		3E98B01421ABEDE5009A2D41 /* BaseTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarButton.m; sourceTree = "<group>"; };
+		3ED6859221ABD85700CEBDAC /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		3ED6859321ABD85700CEBDAC /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3ED6859421ABD85700CEBDAC /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3ED6859521ABD85700CEBDAC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		3ED6859621ABD85700CEBDAC /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		3ED6859721ABD85700CEBDAC /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		3ED6859821ABD85700CEBDAC /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		3ED6859921ABD85700CEBDAC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3ED6859A21ABD85700CEBDAC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3ED6859B21ABD85700CEBDAC /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		4FE2D121C5B5DDA0BF30DA45 /* Pods-Lucky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucky/Pods-Lucky.debug.xcconfig"; sourceTree = "<group>"; };
 		63277D2021A3A17A00194751 /* LYBaseAPIProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBaseAPIProxy.h; sourceTree = "<group>"; };
 		63277D2121A3A17A00194751 /* LYBaseAPIProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBaseAPIProxy.m; sourceTree = "<group>"; };
@@ -198,8 +243,69 @@
 		3E928F4821A7DC6F00976318 /* WebViewLoad */ = {
 			isa = PBXGroup;
 			children = (
+				3E98B01321ABEDE5009A2D41 /* BaseTabbarButton.h */,
+				3E98B01421ABEDE5009A2D41 /* BaseTabbarButton.m */,
+				3E98B01221ABEDE5009A2D41 /* BaseTabbarView.h */,
+				3E98B01121ABEDE4009A2D41 /* BaseTabbarView.m */,
+				3E98AFFD21ABE057009A2D41 /* KProjectCategory */,
+				3E98B00421ABE057009A2D41 /* KProjectControllers */,
+				3E98AFF621ABE057009A2D41 /* KProjectView */,
 			);
 			path = WebViewLoad;
+			sourceTree = "<group>";
+		};
+		3E98AFF621ABE057009A2D41 /* KProjectView */ = {
+			isa = PBXGroup;
+			children = (
+				3E98AFF721ABE057009A2D41 /* KProjectNetworkDisConnectedView.m */,
+				3E98AFF821ABE057009A2D41 /* KProjectProgressView.h */,
+				3E98AFF921ABE057009A2D41 /* KProjectBottomOperationView.m */,
+				3E98AFFA21ABE057009A2D41 /* KProjectNetworkDisConnectedView.h */,
+				3E98AFFB21ABE057009A2D41 /* KProjectProgressView.m */,
+				3E98AFFC21ABE057009A2D41 /* KProjectBottomOperationView.h */,
+			);
+			path = KProjectView;
+			sourceTree = "<group>";
+		};
+		3E98AFFD21ABE057009A2D41 /* KProjectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3E98AFFE21ABE057009A2D41 /* NSObject+CategoryExtension.m */,
+				3E98AFFF21ABE057009A2D41 /* NSString+CategoryExtension.m */,
+				3E98B00021ABE057009A2D41 /* AppDelegate+CategoryExtension.m */,
+				3E98B00121ABE057009A2D41 /* NSObject+CategoryExtension.h */,
+				3E98B00221ABE057009A2D41 /* AppDelegate+CategoryExtension.h */,
+				3E98B00321ABE057009A2D41 /* NSString+CategoryExtension.h */,
+			);
+			path = KProjectCategory;
+			sourceTree = "<group>";
+		};
+		3E98B00421ABE057009A2D41 /* KProjectControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E98B00521ABE057009A2D41 /* KProjectRootViewController.m */,
+				3E98B00621ABE057009A2D41 /* KProjectNavigationViewController.h */,
+				3E98B00721ABE057009A2D41 /* KProjectRootViewController.h */,
+				3E98B00821ABE057009A2D41 /* KProjectNavigationViewController.m */,
+			);
+			path = KProjectControllers;
+			sourceTree = "<group>";
+		};
+		3ED6859121ABD85700CEBDAC /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6859221ABD85700CEBDAC /* SVRadialGradientLayer.m */,
+				3ED6859321ABD85700CEBDAC /* SVIndefiniteAnimatedView.h */,
+				3ED6859421ABD85700CEBDAC /* SVProgressHUD.h */,
+				3ED6859521ABD85700CEBDAC /* SVProgressAnimatedView.m */,
+				3ED6859621ABD85700CEBDAC /* SVProgressHUD-Prefix.pch */,
+				3ED6859721ABD85700CEBDAC /* SVRadialGradientLayer.h */,
+				3ED6859821ABD85700CEBDAC /* SVProgressHUD.m */,
+				3ED6859921ABD85700CEBDAC /* SVIndefiniteAnimatedView.m */,
+				3ED6859A21ABD85700CEBDAC /* SVProgressHUD.bundle */,
+				3ED6859B21ABD85700CEBDAC /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		5157536B9C261E5E29029DD4 /* Frameworks */ = {
@@ -416,6 +522,7 @@
 		636FA2A121A2AEAC00F4030E /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				3ED6859121ABD85700CEBDAC /* SVProgressHUD */,
 				6336382621A7DBD900CC4033 /* MLMSegmentPageView */,
 			);
 			path = ThirdLib;
@@ -732,6 +839,7 @@
 				63277D4621A3D4AF00194751 /* view_bg_image.png in Resources */,
 				636FA29021A2A53000F4030E /* Assets.xcassets in Resources */,
 				636FA2BA21A2B14800F4030E /* ModulesRegister.plist in Resources */,
+				3ED685A021ABD85700CEBDAC /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,27 +895,36 @@
 			files = (
 				639EA52E21A6750E00A1C04C /* LYArticleDetailDataModel.m in Sources */,
 				63277D5721A3F55F00194751 /* LYHomeDataResponse.m in Sources */,
+				3E98B00921ABE057009A2D41 /* KProjectNetworkDisConnectedView.m in Sources */,
 				6333944321A2CC9000DE2DA7 /* LYHomePageViewController.m in Sources */,
 				639EA53221A6887100A1C04C /* LYPageContext.m in Sources */,
 				63277D3021A3A56400194751 /* LYPageAPIRequest.m in Sources */,
 				6336383521A7DBD900CC4033 /* MLMSegmentScroll.m in Sources */,
+				3E98B00B21ABE057009A2D41 /* KProjectProgressView.m in Sources */,
+				3E98B01621ABEDE5009A2D41 /* BaseTabbarButton.m in Sources */,
 				63277D5D21A3F86400194751 /* LYArticleCategoryModel.m in Sources */,
 				6333942921A2C19100DE2DA7 /* LYBaseNavigationViewController.m in Sources */,
 				6336384E21A7EC1800CC4033 /* LYArticleModel.m in Sources */,
 				63277D2D21A3A55300194751 /* LYBaseAPIRequest.m in Sources */,
 				6336384821A7EB9D00CC4033 /* LYArticleRequest.m in Sources */,
+				3E98B01521ABEDE5009A2D41 /* BaseTabbarView.m in Sources */,
 				63277D5A21A3F7A500194751 /* LYArticleListModel.m in Sources */,
 				63277D4A21A3DF7E00194751 /* CTMediator+LYHomePageVCMediator.m in Sources */,
 				63277D5121A3E1F900194751 /* LYJudgeVCTool.m in Sources */,
+				3E98B00A21ABE057009A2D41 /* KProjectBottomOperationView.m in Sources */,
 				63277D2921A3A40D00194751 /* NSObject+Additions.m in Sources */,
 				63277D3821A3A84900194751 /* LYAppCommon.m in Sources */,
 				63277D3E21A3ACC900194751 /* LYCommentModel.m in Sources */,
+				3ED6859C21ABD85700CEBDAC /* SVRadialGradientLayer.m in Sources */,
 				639EA53521A68F3A00A1C04C /* LYMineView.m in Sources */,
 				6336385421A8045700CC4033 /* LYAllArticleDataModel.m in Sources */,
 				6336383421A7DBD900CC4033 /* UIView+ViewController.m in Sources */,
 				6336385121A802BC00CC4033 /* LYArticleListRequest.m in Sources */,
+				3E98B00D21ABE057009A2D41 /* NSString+CategoryExtension.m in Sources */,
 				6336383221A7DBD900CC4033 /* MLMSegmentManager.m in Sources */,
 				636FA29621A2A53000F4030E /* main.m in Sources */,
+				3ED6859D21ABD85700CEBDAC /* SVProgressAnimatedView.m in Sources */,
+				3ED6859E21ABD85700CEBDAC /* SVProgressHUD.m in Sources */,
 				63277D2521A3A1E200194751 /* LYBaseAPIResponse.m in Sources */,
 				6336384521A7E6C800CC4033 /* LYArticleListView.m in Sources */,
 				6333944D21A2D60100DE2DA7 /* LYHttpPresenter.m in Sources */,
@@ -824,11 +941,16 @@
 				639EA52521A662F200A1C04C /* LYArticleDetailView.m in Sources */,
 				6336383F21A7E68100CC4033 /* LYAritcleListViewController.m in Sources */,
 				639EA53821A68F6200A1C04C /* LYToolsViewController.m in Sources */,
+				3ED6859F21ABD85700CEBDAC /* SVIndefiniteAnimatedView.m in Sources */,
 				639EA52B21A6732700A1C04C /* LYArticleDetailRequest.m in Sources */,
+				3E98B01021ABE057009A2D41 /* KProjectNavigationViewController.m in Sources */,
+				3E98B00C21ABE057009A2D41 /* NSObject+CategoryExtension.m in Sources */,
 				639EA52121A6482E00A1C04C /* LYArticleListTableViewCell.m in Sources */,
+				3E98B00E21ABE057009A2D41 /* AppDelegate+CategoryExtension.m in Sources */,
 				6333942621A2C11200DE2DA7 /* LYBaseViewController.m in Sources */,
 				639EA52821A6641900A1C04C /* LYArticleDetailPresenter.m in Sources */,
 				6333944A21A2D5EF00DE2DA7 /* LYHomePagePresenter.m in Sources */,
+				3E98B00F21ABE057009A2D41 /* KProjectRootViewController.m in Sources */,
 				63277D4D21A3E0A600194751 /* LYArticleDetailViewController.m in Sources */,
 				6336384221A7E6AB00CC4033 /* LYArticleListPresenter.m in Sources */,
 				6336383621A7DBD900CC4033 /* UIView+EasyFrame.m in Sources */,
