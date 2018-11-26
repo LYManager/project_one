@@ -183,7 +183,7 @@ static NSInteger BaseBtnTag = 5000;
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     [super drawRect:rect];
-    CGPoint center = CGPointMake(rect.size.width/2, rect.size.height/2 - CenterOffsetY);
+    CGPoint center = CGPointMake(rect.size.width/2, rect.size.height/2 - CenterOffsetY + 24);
     // 间距
     CGFloat orgin = (rect.size.width - 20) / 10;
      CGContextRef context = UIGraphicsGetCurrentContext();

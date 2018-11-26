@@ -15,6 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.tabBar.translucent = NO;
     // Do any additional setup after loading the view.
 }
 
