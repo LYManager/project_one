@@ -53,5 +53,6 @@ CREATE_SETGET_UTILS_M(NSString *, userID, UserID)
 CREATE_SETGET_UTILS_M(NSString *, isNewRegister, IsNewRegister)
 
 CREATE_SETGET_UTILS_M(NSString *, debugServiceURLAdderss, DebugServiceURLAdderss)
+
 CREATE_SETGET_UTILS_M(NSString *, debugWebServiceURLAdderss, DebugWebServiceURLAdderss)
 @end

@@ -25,6 +25,11 @@
 - (void)viewDidLoad {
     self.view.backgroundColor = [UIColor whiteColor];
     [super viewDidLoad];
+//<<<<<<< HEAD
+//
+//    self.tabBar.translucent = NO;
+//    // Do any additional setup after loading the view.
+//=======
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"温馨提示" message:@"网络不给力,请检查网络设置!" delegate:nil cancelButtonTitle:@"确定"otherButtonTitles:nil, nil];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     //    __weak BaseTabBarController *weakSelf = self;
@@ -149,6 +154,7 @@
     
     
     
+//>>>>>>> 8e3f92afb564936b8e80b763b9e1c2409dd3f858
 }
 
 /*

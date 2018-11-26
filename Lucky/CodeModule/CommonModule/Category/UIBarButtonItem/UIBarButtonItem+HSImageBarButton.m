@@ -11,15 +11,9 @@
 @implementation UIBarButtonItem (HSImageBarButton)
 +(instancetype)itemWithTarget:(id)target action:(SEL)action image:(NSString *)image hightlightedImage:(NSString *)hightlightImage
 {
-    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    [btn setImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
-    [btn setImage:[UIImage imageNamed:hightlightImage] forState:UIControlStateHighlighted];
-    btn.imageEdgeInsets = UIEdgeInsetsMake(12, 0, 12, 40);
-//    [btn setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
-//    [btn setBackgroundImage:[UIImage imageNamed:hightlightImage] forState:UIControlStateHighlighted];
-    btn.frame = CGRectMake(-18, 0, 50, 40);
-    return [[UIBarButtonItem alloc]initWithCustomView:btn];
+    UIImage *buttonNormal = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIBarButtonItem * item = [[UIBarButtonItem alloc]initWithImage:buttonNormal style:UIBarButtonItemStylePlain target:target action:action];
+    return item;
 }
 
 +(instancetype)rightItemsWithTarget:(id)target action:(SEL)action image:(NSString *)image hightlightedImage:(NSString *)hightlightImage
