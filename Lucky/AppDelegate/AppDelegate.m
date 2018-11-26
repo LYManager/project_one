@@ -22,7 +22,7 @@
 #define APP_ID @"QHdtrbrryVIxIEYt1R0q58wt-gzGzoHsz"
 #define APP_KEY @"7jRHAI3snQDmQHUaUDAhzsbp"
 #define kChannel                   @"AppStore_Common"//渠道标示
-@interface AppDelegate ()
+@interface AppDelegate ()<JPUSHRegisterDelegate>
 
 @end
 
@@ -33,7 +33,7 @@
 //    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;//修改顶部状态栏颜色
 
     
-    [self initWithThird:launchOptions];
+    [self initWithThird:launchOptions];//加载推送等
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
